@@ -25,6 +25,12 @@ jobs:
           commit_message: 'Optimize images'
           commit_user_email: 'info@melanx.de'
 
+      - name: 'Create table of mods'
+        run: python scripts/generate_table.py
+
+      - name: 'Create WIP pages'
+        run: python scripts/generate_missing_pages.py
+
       - name: 'Build Wiki'
         run: mkdocs build -d build_site
 

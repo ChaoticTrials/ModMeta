@@ -1,5 +1,5 @@
 nav:
-  - Home: index.md
+  - Overview: index.md
 
 site_name: MelanX' Mods Wiki
 site_url: https://melanx.github.io/Mod-Wikis/
@@ -17,10 +17,6 @@ theme:
     - tabs
   logo: assets/logo.png
   favicon: assets/logo.png
-
-extra:
-  social:
-
 
 markdown_extensions:
   - codehilite:
