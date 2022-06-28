@@ -1,0 +1,44 @@
+nav:
+  - Home: index.md
+
+site_name: MelanX' Mods Wiki
+site_url: https://melanx.github.io/Mod-Wikis/
+
+theme:
+  palette:
+    scheme: slate
+    primary: light blue
+    accent: lime
+  name: material
+  font:
+    text: Jost
+    code: Jetbrains Mono
+  features:
+    - tabs
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+extra:
+  social:
+
+
+markdown_extensions:
+  - codehilite:
+      noclasses: true
+      use_pygments: true
+      pygments_style: monokai
+  - admonition
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - fenced_code
+
+plugins:
+  - git-revision-date-localized:
+      type: date
+
+repo_name: MelanX/Mod-Wikis
+repo_url: https://github.com/MelanX/Mod-Wikis/
+edit_uri: edit/wiki-source/docs/
