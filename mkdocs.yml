@@ -16,7 +16,7 @@ theme:
   features:
     - tabs
   logo: assets/logo.png
-  favicon: assets/logo.png
+  favicon: assets/logo.ico
 
 markdown_extensions:
   - codehilite:
