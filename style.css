@@ -1,0 +1,12 @@
+.mx-wiki-hidden {
+    display: none;
+}
+
+.mx-wiki-input {
+    height: 1.6rem;
+    padding-left: 2.2rem;
+    color: inherit;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 0.1rem;
+}
