@@ -3,9 +3,8 @@ import os
 from util import get_data, get_default_slug
 
 data = get_data()
-mods = data['projects']
 i = 1
-mods = list(filter(lambda mod: (not os.path.exists("docs/" + mod['slug'] if type(mod['slug']) == str else mod['slug']['cf'])), mods))
+mods = list(filter(lambda mod: (not os.path.exists("docs/" + mod['slug'] if type(mod['slug']) == str else mod['slug']['cf']) and 'wiki_url' not in mod), data['projects']))
 for mod in mods:
     if not os.path.exists("docs/" + mod['slug'] if type(mod['slug']) == str else mod['slug']['cf']):
         print(f"({i}) {mod['name']}")
