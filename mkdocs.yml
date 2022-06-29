@@ -20,6 +20,7 @@ theme:
   favicon: assets/logo.ico
 
 markdown_extensions:
+  - pymdownx.extra
   - codehilite:
       noclasses: true
       use_pygments: true
