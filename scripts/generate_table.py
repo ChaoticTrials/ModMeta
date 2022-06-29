@@ -40,6 +40,8 @@ for mod in mods:
     github = f"[![]({github_badge.format(mod['github'])})]({github_url + mod['github']})" if "github" in mod else "Not available"
     table += f'<tr class="mx-wiki-search-row" data-search-text="{name}"><td>[{name}]({wiki})</td><td>{cf_url}</td><td>{mr_url}</td><td>{github}</td></tr>\n'
 
+table += '</tbody></table>\n'
+
 with open("docs/index.md", "r", encoding="utf-8") as f:
     content = f.read()
 
