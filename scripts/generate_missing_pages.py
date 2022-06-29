@@ -1,8 +1,8 @@
-import json
 import os
 
-with open("data/projects.json", "r", encoding="utf-8") as f:
-    data = json.loads(f.read())
+from util import get_data
+
+data = get_data()
 
 mods = data['projects']
 
@@ -12,7 +12,7 @@ for mod in mods:
         os.mkdir("docs/" + slug)
         with open("docs/" + slug + "/index.md", "w", encoding="utf-8") as f:
             f.writelines([
-                "# " + mod['name'] + "\n",
+                f"# {mod['name']}\n",
                 "\n",
                 "This mod was not even started to be worked on, sorry!\n"
             ])

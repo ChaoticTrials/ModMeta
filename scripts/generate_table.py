@@ -1,9 +1,11 @@
-import json
+from util import get_data
 
-with open("data/projects.json", "r", encoding="utf-8") as f:
-    data = json.loads(f.read())
+data = get_data()
 
 wiki_url: str = data['wiki_url']
+
+github_url: str = data['github']['base_url']
+github_badge: str = data['github']['badge_url']
 
 cf_link: str = data['curseforge']['base_url']
 cf_badge: str = data['curseforge']['badge_url']
@@ -34,7 +36,7 @@ for mod in mods:
 
     if "wiki_url" in mod:
         wiki = mod['wiki_url']
-    github = f"[Link]({mod['github']})" if "github" in mod else "Not available"
+    github = f"[![]({github_badge.format(mod['github'])})]({github_url + mod['github']})" if "github" in mod else "Not available"
     table += f"|[{name}]({wiki})|{cf_url}|{mr_url}|{github}|\n"
 
 with open("docs/index.md", "r", encoding="utf-8") as f:
