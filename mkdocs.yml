@@ -2,7 +2,7 @@ nav:
   - Overview: index.md
   - Mods:
     - Analyzer: analyzer/index.md
-    - Boohoo!: boohoo.img/index.md
+    - Boohoo!: boohoo/index.md
     - LibX: https://moddingx.org/wiki
     - NBT Remover: nbt-remover/index.md
     - Skyblock Builder: https://melanx.github.io/SkyblockBuilder

@@ -27,4 +27,4 @@ The ghost disappears at day (configurable).
 
 If you want to disable the ghost in any dimension, there's a list in the config for that.
 
-![](../assets/projects/boohoo.img)
+![](../assets/projects/boohoo.png)
