@@ -13,7 +13,8 @@ mr_badge: str = data['modrinth']['badge_url']
 
 mods = data['projects']
 
-table = "|Name|CurseForge|Modrinth|GitHub|\n|---|:---:|:---:|:---:|\n"
+table = f'<table cols="4" rows="{1 + len(mods)}">\n'
+table += "<tr><td>**Name**</td><td>**CurseForge**</td><td>**Modrinth**</td><td>**GitHub**</td></tr><tbody>\n"
 
 for mod in mods:
     name = mod['name']
@@ -35,10 +36,18 @@ for mod in mods:
     if "wiki_url" in mod:
         wiki = mod['wiki_url']
     github = f"[Link]({mod['github']})" if "github" in mod else "Not available"
-    table += f"|[{name}]({wiki})|{cf_url}|{mr_url}|{github}|\n"
+    table += f'<tr class="mx-wiki-search-row" data-search-text="{name}"><td>[{name}]({wiki})</td><td>{cf_url}</td><td>{mr_url}</td><td>{github}</td></tr>\n'
+
+table += '</tbody></table>\n'
 
 with open("docs/index.md", "r", encoding="utf-8") as f:
     content = f.read()
 
+new_content = content.format(**{
+    'table': table,
+    'search': '<div style="float:right;"><form name="unused"><input id="mx-mods-table-search-input" type="text" class="mx-wiki-input" placeholder="Search"></form></div>',
+    'header': '<script src="scripts/table_search.js" type="application/javascript"></script>\n<link rel="stylesheet" href="style.css">'
+})
+
 with open("docs/index.md", "w", encoding="utf-8") as f:
-    f.write(content.format(table))
+    f.write(new_content)
