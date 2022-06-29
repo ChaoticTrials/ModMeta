@@ -1,3 +1,5 @@
+{header}
+
 # Mod Wikis
 
 Welcome to the home of explanation of MelanX' mods. Here you can find explanation about nearly everything.
@@ -11,6 +13,6 @@ All the wikis here should target the latest version of the mod.
 Below, you can find all mods with links to their wiki pages (even if they have a separate page), the CurseForge download
 count (+ link to project), Modrinth download count (+ link to project), and link to GitHub repository.
 
-## All my mods
+## All my mods {search}
 [//]: # (Will be inserted before building)
-{}
+{table}
