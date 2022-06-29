@@ -1,3 +1,5 @@
+{header}
+
 # Mod Wikis
 
 Welcome to the home of explanation of MelanX' mods. Here you can find explanation about nearly everything.
@@ -13,4 +15,4 @@ count (+ link to project), Modrinth download count (+ link to project), and link
 
 ## All my mods
 [//]: # (Will be inserted before building)
-{}
+{table}
