@@ -16,7 +16,7 @@ mr_badge: str = data['modrinth']['badge_url']
 mods = data['projects']
 
 table = f'<table markdown="1" cols="4" rows="{1 + len(mods)}">\n'
-table += '<tr markdown="1"><td>**Name**</td><td>**CurseForge**</td><td>**Modrinth**</td><td>**GitHub**</td></tr><tbody>\n'
+table += '<tr markdown="1"><td>**Name**</td><td>**CurseForge**</td><td>**Modrinth**</td><td>**GitHub**</td></tr><tbody markdown="1">\n'
 
 for mod in mods:
     name = mod['name']
