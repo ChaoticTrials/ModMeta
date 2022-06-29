@@ -1,6 +1,8 @@
 nav:
   - Overview: index.md
   - NBT Remover: nbt-remover/index.md
+  - LibX: https://moddingx.org/wiki
+  - SkyblockBuilder: https://melanx.github.io/SkyblockBuilder
 
 site_name: MelanX' Mods Wiki
 site_url: https://melanx.github.io/Mod-Wikis/
