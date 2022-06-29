@@ -1,5 +1,9 @@
 {
   "wiki_url": "https://melanx.github.io/Mod-Wikis/",
+  "github": {
+    "base_url": "https://github.com/",
+    "badge_url": "https://img.shields.io/github/issues-raw/{}?style=flat-square"
+  },
   "curseforge": {
     "base_url": "https://www.curseforge.com/minecraft/mc-mods/",
     "badge_url": "https://cf.way2muchnoise.eu/{}.svg?badge_style=flat"
@@ -14,7 +18,7 @@
       "slug": "aiot-botania",
       "cf_id": "294815",
       "mr_id": "TFFWPTSD",
-      "github": "https://github.com/MelanX/aiotbotania"
+      "github": "MelanX/aiotbotania"
     },
     {
       "name": "Analyzer",
@@ -26,158 +30,158 @@
       "slug": "automatic-tool-swap",
       "cf_id": "361977",
       "mr_id": "L9JLNLqk",
-      "github": "https://github.com/MelanX/ToolSwap"
+      "github": "MelanX/ToolSwap"
     },
     {
       "name": "Boohoo!",
       "slug": "boohoo",
       "cf_id": "533925",
       "mr_id": "RYjHe0FQ",
-      "github": "https://github.com/MelanX/Boohoo"
+      "github": "MelanX/Boohoo"
     },
     {
       "name": "Botanical Machinery",
       "slug": "botanical-machinery",
       "cf_id": "395617",
       "mr_id": "CTJzhcfH",
-      "github": "https://github.com/MelanX/botanical-machinery"
+      "github": "MelanX/botanical-machinery"
     },
     {
       "name": "Cucurbita",
       "slug": "cucurbita",
       "cf_id": "411301",
-      "github": "https://github.com/MelanX/Cucurbita"
+      "github": "MelanX/Cucurbita"
     },
     {
       "name": "Curse of Curses",
       "slug": "curse-of-curses",
       "cf_id": "382881",
       "mr_id": "HMcaBYVS",
-      "github": "https://github.com/MelanX/curse-of-curses"
+      "github": "MelanX/curse-of-curses"
     },
     {
       "name": "Default World Type",
       "slug": "defaultworldtype",
       "cf_id": "373014",
       "mr_id": "kZvO1mDq",
-      "github": "https://github.com/MelanX/DefaultWorldType"
+      "github": "MelanX/DefaultWorldType"
     },
     {
       "name": "Ex Naturae",
       "slug": "ex-naturae",
       "cf_id": "482122",
       "mr_id": "TQ12BIKN",
-      "github": "https://github.com/MelanX/ExNaturae"
+      "github": "MelanX/ExNaturae"
     },
     {
       "name": "Excavar",
       "slug": "excavar",
       "cf_id": "561528",
       "mr_id": "u86oU2cO",
-      "github": "https://github.com/MelanX/Excavar"
+      "github": "MelanX/Excavar"
     },
     {
       "name": "Extra Disks",
       "slug": "extra-disks",
       "cf_id": "351491",
       "mr_id": "Tlo2tahX",
-      "github": "https://github.com/MelanX/ExtraDisks"
+      "github": "MelanX/ExtraDisks"
     },
     {
       "name": "Just Enough Advancements",
       "slug": "jea",
       "cf_id": "444941",
       "mr_id": "5JY3QNIB",
-      "github": "https://github.com/MelanX/JustEnoughAdvancements"
+      "github": "MelanX/JustEnoughAdvancements"
     },
     {
       "name": "LibX",
       "slug": "libx",
       "cf_id": "412525",
       "mr_id": "qEH6GYul",
-      "github": "https://github.com/ModdingX/LibX",
+      "github": "ModdingX/LibX",
       "wiki_url": "https://moddingx.org/wiki"
     },
     {
       "name": "MelanX Tweaks",
       "slug": "melanx-tweaks",
       "cf_id": "289799",
-      "github": "https://github.com/MelanX/mxtweaks"
+      "github": "MelanX/mxtweaks"
     },
     {
       "name": "More XFood",
       "slug": "morexfood",
       "cf_id": "283021",
       "mr_id": "VAmcSKsD",
-      "github": "https://github.com/MelanX/morexfood"
+      "github": "MelanX/morexfood"
     },
     {
       "name": "MoreVanillaArmor",
       "slug": "morevanillaarmor",
       "cf_id": "350955",
       "mr_id": "7N4JJ4JD",
-      "github": "https://github.com/MelanX/MoreVanillaArmor"
+      "github": "MelanX/MoreVanillaArmor"
     },
     {
       "name": "MoreVanillaLib",
       "slug": "morevanillalib",
       "cf_id": "367254",
       "mr_id": "CtNNDljK",
-      "github": "https://github.com/MelanX/MoreVanillaLib"
+      "github": "MelanX/MoreVanillaLib"
     },
     {
       "name": "MoreVanillaTools",
       "slug": "morevanillatools",
       "cf_id": "349504",
       "mr_id": "HJphSXip",
-      "github": "https://github.com/MelanX/MoreVanillaTools"
+      "github": "MelanX/MoreVanillaTools"
     },
     {
       "name": "NBT Remover",
       "slug": "nbt-remover",
       "cf_id": "351135",
-      "github": "https://github.com/MelanX/NBTRemover"
+      "github": "MelanX/NBTRemover"
     },
     {
       "name": "Present Stand",
       "slug": "present-stand",
       "cf_id": "283624",
-      "github": "https://github.com/MelanX/presentstand"
+      "github": "MelanX/presentstand"
     },
     {
       "name": "Recipe Printer",
       "slug": "recipe-printer",
       "cf_id": "409823",
       "mr_id": "jCMrOyTG",
-      "github": "https://github.com/MelanX/RecipePrinter"
+      "github": "MelanX/RecipePrinter"
     },
     {
       "name": "Simple Backups",
       "slug": "simple-backups",
       "cf_id": "583228",
       "mr_id": "fzSKSXVK",
-      "github": "https://github.com/MelanX/SimpleBackups"
+      "github": "MelanX/SimpleBackups"
     },
     {
       "name": "Simply Tools",
       "slug": "simply-tools",
       "cf_id": "610058",
       "mr_id": "v7uAVl86",
-      "github": "https://github.com/MelanX/simplytools"
+      "github": "MelanX/simplytools"
     },
     {
       "name": "Sky GUIs",
       "slug": "sky-guis",
       "cf_id": "557696",
       "mr_id": "3Gdi7Qgq",
-      "github": "https://github.com/MelanX/SkyGUIs"
+      "github": "MelanX/SkyGUIs"
     },
     {
       "name": "Skyblock Builder",
       "slug": "skyblock-builder",
       "cf_id": "446691",
       "mr_id": "por2AZc5",
-      "github": "https://github.com/MelanX/SkyblockBuilder",
+      "github": "MelanX/SkyblockBuilder",
       "wiki_url": "https://melanx.github.io/SkyblockBuilder/"
     },
     {
@@ -185,21 +189,21 @@
       "slug": "skyblock-ultima-tools",
       "cf_id": "315068",
       "mr_id": "fM4ceeVu",
-      "github": "https://github.com/MelanX/ultimatools"
+      "github": "MelanX/ultimatools"
     },
     {
       "name": "UtilitiX",
       "slug": "utilitix",
       "cf_id": "463703",
       "mr_id": "MMMWYsjm",
-      "github": "https://github.com/MelanX/UtilitiX"
+      "github": "MelanX/UtilitiX"
     },
     {
       "name": "Vanilla AIOTs",
       "slug": "vanilla-aiots",
       "cf_id": "482123",
       "mr_id": "WN2YCymY",
-      "github": "https://github.com/MelanX/VanillaAIOTs"
+      "github": "MelanX/VanillaAIOTs"
     },
     {
       "name": "Vanilla Excavators [Forge]",
@@ -209,7 +213,7 @@
       },
       "cf_id": "359786",
       "mr_id": "B74Glkrx",
-      "github": "https://github.com/MelanX/vanilla-excavators"
+      "github": "MelanX/vanilla-excavators"
     },
     {
       "name": "Vanilla Hammers [Forge]",
@@ -219,13 +223,13 @@
       },
       "cf_id": "359343",
       "mr_id": "iTcz8g0Q",
-      "github": "https://github.com/MelanX/vanilla-hammers"
+      "github": "MelanX/vanilla-hammers"
     },
     {
       "name": "Yellow Snow",
       "slug": "yellow-snow",
       "cf_id": "420856",
-      "github": "https://github.com/MelanX/yellow-snow"
+      "github": "MelanX/yellow-snow"
     }
   ]
 }
