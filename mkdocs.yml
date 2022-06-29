@@ -1,9 +1,11 @@
 nav:
   - Overview: index.md
-  - Analyzer: analyzer/index.md
-  - LibX: https://moddingx.org/wiki
-  - NBT Remover: nbt-remover/index.md
-  - SkyblockBuilder: https://melanx.github.io/SkyblockBuilder
+  - Mods:
+    - Analyzer: analyzer/index.md
+    - Boohoo!: boohoo.img/index.md
+    - LibX: https://moddingx.org/wiki
+    - NBT Remover: nbt-remover/index.md
+    - Skyblock Builder: https://melanx.github.io/SkyblockBuilder
 
 site_name: MelanX' Mods Wiki
 site_url: https://melanx.github.io/Mod-Wikis/
