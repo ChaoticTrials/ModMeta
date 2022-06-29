@@ -1,5 +1,6 @@
 nav:
   - Overview: index.md
+  - Analyzer: analyzer/index.md
   - NBT Remover: nbt-remover/index.md
 
 site_name: MelanX' Mods Wiki

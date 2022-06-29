@@ -36,7 +36,7 @@ else:
     cf_url = f"[![]({cf_badge.format(mod['cf_id'])})]({cf_link + slug})"
     mr_url = ""
 
-github = f"[![]({github_badge.format(mod['github'])})]({github_url + mod['github']})" if "github" in mod else "Not available"
+github = f"[![]({github_badge.format(mod['github'])})]({github_url + mod['github']})" if "github" in mod else ""
 
 path = "docs/" + get_default_slug(mod)
 os.mkdir(path)
