@@ -8,21 +8,21 @@
       
       
       
-        <link rel="canonical" href="https://melanx.github.io/Mod-Wikis/analyzer/">
+        <link rel="canonical" href="https://melanx.github.io/Mod-Wikis/porting-information/1.18/">
       
-      <link rel="icon" href="../assets/logo.ico">
+      <link rel="icon" href="../../assets/logo.ico">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
     
     
       
-        <title>Analyzer - MelanX' Mods Wiki</title>
+        <title>1.18 - MelanX' Mods Wiki</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2d9f7617.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
           
           
@@ -41,7 +41,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analyzer" class="md-skip">
+        <a href="#order-in-which-melanx-mods-are-ported-from-116-to-118" class="md-skip">
           Skip to content
         </a>
       
@@ -79,9 +79,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="MelanX&#39; Mods Wiki" class="md-header__button md-logo" aria-label="MelanX' Mods Wiki" data-md-component="logo">
+    <a href="../.." title="MelanX&#39; Mods Wiki" class="md-header__button md-logo" aria-label="MelanX' Mods Wiki" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Analyzer
+              1.18
             
           </span>
         </div>
@@ -143,9 +143,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="MelanX&#39; Mods Wiki" class="md-nav__button md-logo" aria-label="MelanX' Mods Wiki" data-md-component="logo">
+    <a href="../.." title="MelanX&#39; Mods Wiki" class="md-nav__button md-logo" aria-label="MelanX' Mods Wiki" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     MelanX' Mods Wiki
@@ -173,7 +173,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Overview
       </a>
     </li>
@@ -186,12 +186,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -214,7 +216,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../porting-information/1.17/" class="md-nav__link">
+      <a href="../1.17/" class="md-nav__link">
         1.17
       </a>
     </li>
@@ -226,11 +228,80 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../porting-information/1.18/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          1.18
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         1.18
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mods-while-waiting-for-dependencies" class="md-nav__link">
+    Mods while waiting for dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-which-require-libx-first" class="md-nav__link">
+    Mods which require LibX first
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-which-require-other-mods-first" class="md-nav__link">
+    Mods which require other mods first
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-with-unclear-future" class="md-nav__link">
+    Mods with unclear future
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-that-wont-be-ported" class="md-nav__link">
+    Mods that won't be ported
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -242,7 +313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../porting-information/1.19/" class="md-nav__link">
+      <a href="../1.19/" class="md-nav__link">
         1.19
       </a>
     </li>
@@ -262,14 +333,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -290,21 +359,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../analyzer/" class="md-nav__link">
         Analyzer
       </a>
-      
     </li>
   
 
@@ -316,7 +375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../boohoo/" class="md-nav__link">
+      <a href="../../boohoo/" class="md-nav__link">
         Boohoo!
       </a>
     </li>
@@ -344,7 +403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../nbt-remover/" class="md-nav__link">
+      <a href="../../nbt-remover/" class="md-nav__link">
         NBT Remover
       </a>
     </li>
@@ -392,6 +451,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mods-while-waiting-for-dependencies" class="md-nav__link">
+    Mods while waiting for dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-which-require-libx-first" class="md-nav__link">
+    Mods which require LibX first
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-which-require-other-mods-first" class="md-nav__link">
+    Mods which require other mods first
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-with-unclear-future" class="md-nav__link">
+    Mods with unclear future
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mods-that-wont-be-ported" class="md-nav__link">
+    Mods that won't be ported
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -402,54 +504,62 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/MelanX/Mod-Wikis/edit/wiki-source/docs/analyzer/index.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/MelanX/Mod-Wikis/edit/wiki-source/docs/porting-information/1.18.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 
-<h1 id="analyzer">Analyzer</h1>
-<p><a href="https://www.curseforge.com/minecraft/mc-mods/analyzer"><img alt="" src="https://cf.way2muchnoise.eu/407986.svg?badge_style=flat" /></a>  </p>
-<p><strong>Analyzer</strong> isn't maintained anymore.</p>
-<p>It simply adds 5 commands, mainly made for <a href="https://www.curseforge.com/minecraft/mc-mods/bongo">Bongo</a>. This
-feature was added by the mod itself, but made much better.</p>
+<h1 id="order-in-which-melanx-mods-are-ported-from-116-to-118">Order in which MelanX' mods are ported from 1.16+ to 1.18</h1>
+<p>Stop asking when something is ready. It's ready when it's ready. You can keep track of the progress here. I might do things earlier than they are planned if I have to wait for my dependencies to be ported.</p>
+<p>For the information, which mods are not even on 1.17.1 and need to be ported from 1.16.x directly to 1.18, look at the <a href="https://git.io/melanx117porting">1.17 porting list</a>.</p>
+<p>All my mods in 1.17+ will also be available on <a href="https://modrinth.com/user/BTS0hlQy">Modrinth</a>.</p>
+<p>⭕ Not started yet</p>
+<p>🔁 In progress</p>
+<p>✔ Done</p>
+<h2 id="mods-while-waiting-for-dependencies">Mods while waiting for dependencies</h2>
 <ul>
-<li><code>/analyzer items</code></li>
-<li>
-<p>Prints all items in <code>config/analyzer/items.txt</code></p>
-</li>
-<li>
-<p><code>/analyzer entities</code></p>
-</li>
-<li>
-<p>Prints all monsters/animals in <code>config/analyzer/entities.txt</code></p>
-</li>
-<li>
-<p><code>/analyzer biomes</code></p>
-</li>
-<li>
-<p>Prints all biomes in <code>config/analyzer/biomes.txt</code></p>
-</li>
-<li>
-<p><code>/analyzer advancements</code></p>
-</li>
-<li>
-<p>Prints all advancements in <code>config/analyzer/advancements.txt</code></p>
-</li>
-<li>
-<p><code>/analyzer potions</code></p>
-</li>
-<li>Prints all potion effects in <code>config/analyzer/potions.txt</code></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/morexfood">More XFood</a> ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/automatic-tool-swap">Automatic Tool Swap</a> ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/morevanillaarmor">MoreVanillaArmor</a> ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/curse-of-curses">Curse of Curses</a> ✔</li>
 </ul>
-<p>Example output:
-<div class="highlight"><pre><span></span><code>...
-minecraft:melon
-minecraft:melon_seeds
-minecraft:melon_slice
-minecraft:milk_bucket
-minecraft:minecart
-...
-</code></pre></div></p>
+<h2 id="mods-which-require-libx-first">Mods which require <a href="https://www.curseforge.com/minecraft/mc-mods/libx">LibX</a> first</h2>
+<ul>
+<li>ByeStack ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/skyblock-builder">Skyblock Builder</a> ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/morevanillalib">MoreVanillaLib</a> ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/utilitix">UtilitiX</a> ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/recipe-printer">Recipe Printer</a> ✔</li>
+</ul>
+<h2 id="mods-which-require-other-mods-first">Mods which require other mods first</h2>
+<ul>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/aiot-botania">AIOT Botania</a> (Botania) ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/extra-disks">Extra Disks</a> (Refined Storage) ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ex-naturae">Ex Naturae</a> (LibX, Ex Nihilo: Sequentia, Botania) ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-hammers-forge">Vanilla Hammers</a> (LibX, MoreVanillaLib) ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-excavators-forge">Vanilla Excavators</a> (LibX, MoreVanillaLib) ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/morevanillatools">MoreVanillaTools</a> (LibX, MoreVanillaLib) ✔</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-aiots">Vanilla AIOTs</a> (LibX) ✔</li>
+</ul>
+<h2 id="mods-with-unclear-future">Mods with unclear future</h2>
+<p>These mods might not be ported at all. If  they are ported then probably roughly in this order:</p>
+<ul>
+<li><a href="https://github.com/MelanX/InventorySwitch">Inventory Switch</a> ⭕</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/melanx-tweaks">MelanX Tweaks</a> (Botania) ⭕</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/skyblock-ultima-tools">Skyblock Ultima Tools</a> ✔</li>
+</ul>
+<h2 id="mods-that-wont-be-ported">Mods that won't be ported</h2>
+<p>These mods are not ported to 1.18. At least not by me. Don't ask for them. If you really want them, learn moddings and do it yourself.</p>
+<ul>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/analyzer">Analyzer</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/boohoo">Boohoo!</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/botanical-machinery">Botanical Machinery</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cucurbita">Cucurbita</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/defaultworldtype">Default World Type</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yellow-snow">Yellow Snow</a></li>
+</ul>
+<p><em>This porting list was made by noeppi_noeppi first and I stole it because I liked it</em></p>
 
   <hr>
 <div class="md-source-file">
@@ -474,7 +584,7 @@ minecraft:minecart
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../porting-information/1.19/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 1.19" rel="prev">
+        <a href="../1.17/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 1.17" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -483,20 +593,20 @@ minecraft:minecart
               <span class="md-footer__direction">
                 Previous
               </span>
-              1.19
+              1.17
             </div>
           </div>
         </a>
       
       
         
-        <a href="../boohoo/" class="md-footer__link md-footer__link--next" aria-label="Next: Boohoo!" rel="next">
+        <a href="../1.19/" class="md-footer__link md-footer__link--next" aria-label="Next: 1.19" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Boohoo!
+              1.19
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -526,10 +636,10 @@ minecraft:minecart
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
     
     
-      <script src="../assets/javascripts/bundle.467223ff.min.js"></script>
+      <script src="../../assets/javascripts/bundle.467223ff.min.js"></script>
       
     
   </body>
