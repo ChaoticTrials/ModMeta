@@ -1,5 +1,9 @@
 nav:
   - Overview: index.md
+  - Porting information:
+    - 1.17: porting-information/1.17.md
+    - 1.18: porting-information/1.18.md
+    - 1.19: porting-information/1.19.md
   - Mods:
     - Analyzer: analyzer/index.md
     - Boohoo!: boohoo/index.md
