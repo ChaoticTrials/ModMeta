@@ -60,6 +60,13 @@
       "github": "MelanX/curse-of-curses"
     },
     {
+      "name": "Data Trader",
+      "slug": "data-trader",
+      "cf_id": "650573",
+      "mr_id": "No1xZeN1",
+      "github": "MelanX/DataTrader"
+    },
+    {
       "name": "Default World Type",
       "slug": "defaultworldtype",
       "cf_id": "373014",

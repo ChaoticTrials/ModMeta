@@ -7,6 +7,7 @@ nav:
   - Mods:
     - Analyzer: analyzer/index.md
     - Boohoo!: boohoo/index.md
+    - Data Trader: data-trader/index.md
     - Default World Type: defaultworldtype/index.md
     - LibX: https://moddingx.org/wiki
     - NBT Remover: nbt-remover/index.md
