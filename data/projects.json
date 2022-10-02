@@ -124,6 +124,14 @@
       "maintained": true
     },
     {
+      "name": "Maledicta",
+      "slug": "maledicta",
+      "cf_id": "684453",
+      "mr_id": "ICVjNC7Q",
+      "github": "MelanX/Maledicta",
+      "maintained": true
+    },
+    {
       "name": "MelanX Tweaks",
       "slug": "melanx-tweaks",
       "cf_id": "289799",
