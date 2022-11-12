@@ -201,6 +201,14 @@
       "maintained": true
     },
     {
+      "name": "Simply Harvesting",
+      "slug": "simply-harvesting",
+      "cf_id": "701347",
+      "mr_id": "P4FVY4ll",
+      "github": "MelanX/SimplyHarvesting",
+      "maintained": true
+    },
+    {
       "name": "Simply Tools",
       "slug": "simply-tools",
       "cf_id": "610058",
