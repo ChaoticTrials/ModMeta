@@ -585,31 +585,31 @@
 <h3 id="file-structure">File structure</h3>
 <p>The trader can receive an ID for a merchant offers "recipe". This is a list of single <code>merchant offer</code>s. An example
 file could look like this:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;Recipes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;buy&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;item&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:diamond&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
-<span class="w">      </span><span class="p">},</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;buyB&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;item&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:wooden_pickaxe&quot;</span><span class="w"></span>
-<span class="w">      </span><span class="p">},</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;sell&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;item&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:diamond_pickaxe&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;nbt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;{Damage:0,Enchantments:[{id:\&quot;minecraft:efficiency\&quot;,lvl:2},{id:\&quot;minecraft:unbreaking\&quot;, lvl:10}]}&quot;</span><span class="w"></span>
-<span class="w">      </span><span class="p">},</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;uses&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;maxUses&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;rewardExp&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;xp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;priceMultiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;specialPrice&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;demand&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</code></pre></div>
+<p><code>json
+{
+  "Recipes": [
+    {
+      "buy": {
+        "item": "minecraft:diamond",
+        "count": 3
+      },
+      "buyB": {
+        "item": "minecraft:wooden_pickaxe"
+      },
+      "sell": {
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2},{id:\"minecraft:unbreaking\", lvl:10}]}"
+      },
+      "uses": 10,
+      "maxUses": 50,
+      "rewardExp": false,
+      "xp": 0,
+      "priceMultiplier": 0.0,
+      "specialPrice": 0,
+      "demand": 0
+    }
+  ]
+}</code></p>
 <ul>
 <li>This example includes only one merchant offer. The trader will sell the item in <code>sell</code>.</li>
 <li>The player needs to provide the item in <code>buy</code> and <code>buyB</code> to receive the item.
@@ -682,7 +682,7 @@ For a normal trader, I recommend setting <code>NoAI</code> to <code>true</code>.
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 12, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 25, 2022</span>
       
     
   </small>
