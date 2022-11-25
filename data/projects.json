@@ -283,8 +283,9 @@
       "name": "Yellow Snow",
       "slug": "yellow-snow",
       "cf_id": "420856",
+      "mr_id": "VrWtXTLg",
       "github": "MelanX/yellow-snow",
-      "maintained": false
+      "maintained": true
     }
   ]
 }
