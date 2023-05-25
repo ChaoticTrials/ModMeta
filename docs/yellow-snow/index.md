@@ -1,5 +1,6 @@
 # Yellow Snow
-[![](https://cf.way2muchnoise.eu/420856.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/yellow-snow)  [![](https://img.shields.io/github/issues-raw/MelanX/yellow-snow?style=flat-square)](https://github.com/MelanX/yellow-snow)
+[![](https://cf.way2muchnoise.eu/420856.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/yellow-snow)  
+[![](https://img.shields.io/github/issues-raw/MelanX/yellow-snow?style=flat-square)](https://github.com/MelanX/yellow-snow)
 
 The most epic mod made for [WinterJam 2020](https://www.curseforge.com/minecraft/modpacks/mmds-winterjam-2020). It
 adds peed snow. This snow can spread onto normal snow (configurable) with the same speed of grass spreading. The 
