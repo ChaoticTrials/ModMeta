@@ -30,6 +30,7 @@ and curses will only be applied after a specific number of sleeps.
 ### Denylisted Curses
 If there are specific curses that you do not want to be applied by this mod, you can use the `denylistedCurses` option in 
 the config file. Simply add the curses you want to ignore to the denylist. For example:
+
 - `"minecraft:*"` -> ignores all curses added by Minecraft
 - `"minecraft:binding_curse"` -> ignores Curse of Binding
 
