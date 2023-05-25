@@ -27,10 +27,10 @@ slug = mod['slug']
 if "mr_id" in mod:
     if type(slug) == str:
         cf_url = f"[![]({cf_badge.format(mod['cf_id'])})]({cf_link + slug})"
-        mr_url = f"[![]({mr_badge.format(mod['mr_id'])})]({mr_link + slug})"
+        mr_url = f"[![]({mr_badge.format(slug)})]({mr_link + slug})"
     else:
         cf_url = f"[![]({cf_badge.format(mod['cf_id'])})]({cf_link + slug['cf']})"
-        mr_url = f"[![]({mr_badge.format(mod['mr_id'])})]({mr_link + slug['mr']})"
+        mr_url = f"[![]({mr_badge.format(slug['mr'])})]({mr_link + slug['mr']})"
 else:
     cf_url = f"[![]({cf_badge.format(mod['cf_id'])})]({cf_link + slug})"
     mr_url = ""
@@ -42,8 +42,8 @@ os.mkdir(path)
 with open(path + "/index.md", "w", encoding="utf-8") as f:
     f.writelines([
         f"# {mod['name']}\n",
-        f"{cf_url} {mr_url} {github}\n"
+        f"{cf_url}\n{mr_url}\n{github}\n"
     ])
 
 print("Add this to mkdocs.yml:")
-print(f"  - {mod['name']}: {get_default_slug(mod)}/index.md")
+print(f"    - {mod['name']}: {get_default_slug(mod)}/index.md")
