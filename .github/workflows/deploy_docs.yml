@@ -15,16 +15,6 @@ jobs:
       - name: 'Configure'
         run: pip3 install mkdocs==1.4.3 mkdocs-material==9.1.14 mkdocs-git-revision-date-localized-plugin==1.2.0
 
-      - name: 'Optimize Images'
-        run: |
-          find . -name "*.png" -exec optipng -o7 {} \;
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        name: 'Push images'
-        with:
-          commit_message: 'Optimize images'
-          commit_user_email: 'info@melanx.de'
-
       - name: 'Create table of mods'
         run: python scripts/generate_table.py
 
