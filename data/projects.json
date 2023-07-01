@@ -96,7 +96,11 @@
       "cf_id": "561528",
       "mr_id": "u86oU2cO",
       "github": "MelanX/Excavar",
-      "maintained": true
+      "maintained": true,
+      "yt_video": {
+        "type": "short",
+        "id": "zww2hy1g2vU"
+      }
     },
     {
       "name": "Extra Disks",

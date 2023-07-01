@@ -21,6 +21,9 @@ jobs:
       - name: 'Create WIP pages'
         run: python scripts/generate_missing_pages.py
 
+      - name: 'Add YouTube videos'
+        run: python scripts/generate_youtube_embeds.py
+
       - name: 'Build Wiki'
         run: mkdocs build -d build_site
 
