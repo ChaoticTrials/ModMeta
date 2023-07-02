@@ -10,3 +10,5 @@ Throwing a snowball will hurt on impact. The damage is 0.5 to 1 hearts, addition
 
 This mod is also compatible with [Naughty or Nice](https://www.curseforge.com/minecraft/mc-mods/naughty-or-nice). 
 Placing snow block (layer) will remove 0.01 niceness, breaking will add 0.005 points.
+
+{yt_video}
