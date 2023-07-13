@@ -48,6 +48,7 @@ with open("docs/index.md", "r", encoding="utf-8") as f:
     content = f.read()
 
 new_content = content.format(**{
+    'maven': '```groovy\nmaven {\n    name = \'MelanX mods\'\n    url  = \'https://maven.melanx.de/\'\n}\n```',
     'table': table,
     'search': '<div style="float:right;"><form name="unused"><input id="mx-mods-table-search-input" type="text" class="mx-wiki-input" placeholder="Search"></form></div>',
     'header': '<script src="scripts/table_search.js" type="application/javascript"></script>\n<link rel="stylesheet" href="style.css">'

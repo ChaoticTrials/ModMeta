@@ -16,12 +16,7 @@ count (+ link to project), Modrinth download count (+ link to project), and link
 ## Maven
 
 All mods can be found in my Maven, you can find it [here](https://maven.melanx.de/). Add this to your repositories:
-```groovy
-maven { 
-    name = 'MelanX mods'
-    url  = 'https://maven.melanx.de/' 
-}
-```
+{maven}
 
 ## All my mods {search}
 [//]: # (Will be inserted before building)
