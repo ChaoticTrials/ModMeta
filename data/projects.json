@@ -182,6 +182,14 @@
       "maintained": false
     },
     {
+      "name": "Pack Essentials",
+      "slug": "packessentials",
+      "cf_id": "991847",
+      "mr_id": "B7NPvScT",
+      "github": "MelanX/PackEssentials",
+      "maintained": true
+    },
+    {
       "name": "Present Stand",
       "slug": "present-stand",
       "cf_id": "283624",
