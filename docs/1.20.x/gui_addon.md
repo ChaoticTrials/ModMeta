@@ -1,5 +1,4 @@
 # Sky GUIs
-*at this time it's not released for 1.20.x yet*
 
 You find it kinda annoying that users have to handle everything with commands? The solution is 
 [Sky GUIs 🔗](https://www.curseforge.com/minecraft/mc-mods/sky-guis). This mod adds a lot of GUIs which help to create
