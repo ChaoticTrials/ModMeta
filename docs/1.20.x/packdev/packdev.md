@@ -15,7 +15,10 @@ Otherwise, it's the same as in [single player](#setting-world-type-on-single-pla
 ## Creating a custom skyblock island
 1. Build an island.
 2. Use the custom item `Structure Saver` from the vanilla Tools tab in creative inventory. The output directory for this
-   is `<minecraft>/skyblock_exports/<name>.nbt`.
+   is `<minecraft>/skyblock_exports/<name>.nbt`. If you set a Spawn Block, you'll also get an additional file with all
+   the spawn points where the spawn blocks were. They are not present in the exported file. If you click the option to
+   export everything into the config, the template will be generated into the correct directory. If you used spawn 
+   blocks, spawns will also be added to `config/skyblockbuilder/templates.json5`.
    Alternatively, you can also use the vanilla Structure Block. Keep in mind that this can only save islands up to 
    48x48x48 blocks and the output is in `<minecraft>/saves/<world>/generated/minecraft/structures/<name>.nbt`.
 3. Copy the generated file from its directory (see previous step) to `config/skyblockbuilder/templates/<name>.nbt`.
