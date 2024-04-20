@@ -101,8 +101,11 @@ Now the `templates`:
 }
 ```
 
-- The `name` is the name displayed in the `Customize` screen when selecting the world-preset.
+- The `name` is the name displayed in the `Customize` screen when selecting the world-preset. Use `{` at start and `}`
+  at the end to create a language key. That way, you can translate the name into other languages using a resource pack.
 - The `desc` (optional - default "") is the description displayed in the `Customize` screen when selecting the world-type.
+  Use `{` at start and `}` at the end to create a language key. That way, you can translate the name into other
+  languages using a resource pack.
 - The `file` is the name of the file for that template.
 - The `spawns` is the spawn configuration name from the `spawns` option.
 - The `direction` (optional - default "south") is the direction the user should look at for this template. If not 
