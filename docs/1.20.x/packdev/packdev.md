@@ -45,7 +45,7 @@ use by pressing the `Customize` button in world options screen or changing the s
 ## Configuring templates
 As described in [Creating a custom skyblock island](#creating-a-custom-skyblock-island), you can improve the readability
 of templates and set the spawn points for each template in the config here: `config/skyblockbuilder/templates.json5`.
-There you have 4 options. First the `spawns`:
+There you have multiple options. First the `spawns`:
 ```json
 {
    "spawns": {
@@ -68,7 +68,32 @@ are formatted this way:
 [ x, y, z ]
 ```
 
-Second, the `surroundingBlocks`:
+Second, the `spreads`:
+```json
+{
+  "spreads": {
+    "default": [
+      {
+        "file": "default.nbt",
+        "minOffset": [ -6, 3, 5 ],
+        "maxOffset": [ 4, 10, 3 ]
+      },
+      {
+        "file": "default2.nbt",
+        "offset": [0, 64, 0]
+      }
+    ]
+  }
+}
+```
+This option is similar to the previously explained `spawns`. It holds multiple objects. The key (here `default`) is 
+important for the `templates` option in a next step. You can have multiple entries, but keep in mind that **no key** can
+be used twice! The content of each object is an array with other objects. These objects require a `file` (file name of
+a file located in `config/skyblockbuilder/templates/spreads` and ends with `.nbt` or `.snbt`), and either `minOffset`
+and `maxOffset`, or just `offset` for an offset relative to the 0 0 0 position of the main island. If you choose 
+`minOffset` and `maxOffset`, it'll be randomly generated somewhere between. 
+
+Next, the `surroundingBlocks`:
 ```json
 {
   "surroundingBlocks": {

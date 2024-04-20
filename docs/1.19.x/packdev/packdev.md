@@ -42,7 +42,7 @@ use by pressing the `Customize` button in world options screen or changing the s
 ## Configuring templates
 As described in [Creating a custom skyblock island](#creating-a-custom-skyblock-island), you can improve the readability
 of templates and set the spawn points for each template in the config here: `config/skyblockbuilder/templates.json5`.
-There you have 4 options. First the `spawns`:
+There you have multiple options. First the `spawns`:
 ```json
 {
    "spawns": {
