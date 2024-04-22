@@ -94,6 +94,7 @@ a file located in `config/skyblockbuilder/templates/spreads` and ends with `.nbt
 and `maxOffset`, or just `offset` for an offset relative to the 0 0 0 position of the main island. If you choose 
 `minOffset` and `maxOffset`, it'll be randomly generated somewhere between. There is also an optional config for the
 `origin`. This defines where the offset should be calculated at. There are two possible values: 
+
 - `zero` (default, if not defined) *right*
 - `center` *left*
 ![](../../assets/config/origin.png)
