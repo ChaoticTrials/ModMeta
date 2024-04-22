@@ -103,6 +103,7 @@ nav:
       - Modpack Creator:
           - 1.20.x/packdev/packdev.md
           - 1.20.x/packdev/admin.md
+          - 1.20.x/packdev/helpful.md
       - End User:
           - 1.20.x/user/user.md
           - 1.20.x/user/join-team.md
