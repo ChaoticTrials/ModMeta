@@ -76,7 +76,8 @@ Second, the `spreads`:
       {
         "file": "default.nbt",
         "minOffset": [ -6, 3, 5 ],
-        "maxOffset": [ 4, 10, 3 ]
+        "maxOffset": [ 4, 10, 3 ],
+        "origin": "center"
       },
       {
         "file": "default2.nbt",
@@ -91,7 +92,11 @@ important for the `templates` option in a next step. You can have multiple entri
 be used twice! The content of each object is an array with other objects. These objects require a `file` (file name of
 a file located in `config/skyblockbuilder/templates/spreads` and ends with `.nbt` or `.snbt`), and either `minOffset`
 and `maxOffset`, or just `offset` for an offset relative to the 0 0 0 position of the main island. If you choose 
-`minOffset` and `maxOffset`, it'll be randomly generated somewhere between. 
+`minOffset` and `maxOffset`, it'll be randomly generated somewhere between. There is also an optional config for the
+`origin`. This defines where the offset should be calculated at. There are two possible values: 
+- `zero` (default, if not defined) *right*
+- `center` *left*
+![](../../assets/config/origin.png)
 
 Next, the `surroundingBlocks`:
 ```json
