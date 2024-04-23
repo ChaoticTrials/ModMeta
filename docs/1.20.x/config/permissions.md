@@ -24,7 +24,7 @@ The distance from the island center where the users should be able to add spawns
 
 ## Teleports
 ### Visits
-Allows the player to [visit other islands](../user/visiting.md).
+Allows the player to [visit other islands](../user/visiting.md). Has a cooldown for each player.
 
 ### Home
 Allows the player to [teleport back home](../user/user.md#teleporting-back-to-home-island). Has a cooldown for each 
