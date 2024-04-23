@@ -165,6 +165,10 @@ markdown_extensions:
   - pymdownx.snippets
   - fenced_code
 
+plugins:
+    - git-revision-date-localized:
+          type: date
+
 repo_name: melanx/skyblockbuilder
 repo_url: https://github.com/MelanX/SkyblockBuilder/
 edit_uri: edit/wiki-source/docs/
