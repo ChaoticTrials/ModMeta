@@ -153,6 +153,7 @@ extra:
     1.19.x: 1.19.x
 
 markdown_extensions:
+  - pymdownx.extra
   - codehilite:
       noclasses: true
       use_pygments: true
