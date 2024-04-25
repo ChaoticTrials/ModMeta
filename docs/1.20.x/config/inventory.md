@@ -18,7 +18,12 @@ the player only on initial joining world, not when joining a team. You can also 
 You could also just export your inventory by using the command `/skyblock inventory export`. This will create a new file
 in the `skyblock_exports` folder with the current inventory and the correct slot.
 
-Available values for the slots are:
+If you have Curios installed, you can also add these items by adding the same array of items like in `items`, but the
+key needs to be called `curios_items`. These always need the `Slot` key. Available slots can be found by using the
+command `/curios list`. If you add too many items to one slot, or add an item to an invalid identifier, it'll log that
+and the player gets a message. Check that before releasing the pack!
+
+Available values for the vanilla slots are:
 
 - `mainhand` (default)
 - `offhand`
@@ -39,6 +44,17 @@ The config could look like this:
       "item": "minecraft:bread",
       "count": 32,
       "Slot": "offhand"
+    }
+  ],
+  "curios_items": [
+    {
+      "item": "botania:flight_tiara",
+      "nbt": "{variant:7}",
+      "Slot": "head"
+    },
+    {
+      "item": "botania:monocle",
+      "Slot": "charm"
     }
   ]
 }

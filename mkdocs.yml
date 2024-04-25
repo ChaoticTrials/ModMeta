@@ -144,14 +144,6 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
 
-extra:
-  current_version: 1.19.x
-  versions:
-    1.16.x: 1.16.x
-    1.17.x: 1.17.x
-    1.18.x: 1.18.x
-    1.19.x: 1.19.x
-
 markdown_extensions:
   - pymdownx.extra
   - codehilite:
