@@ -8,7 +8,6 @@ nav:
     - "1.21": porting-information/1.21.md
   - Mods:
     - Analyzer: analyzer/index.md
-    - Automatic Tool Swap: automatic-tool-swap/index.md
     - Boohoo!: boohoo/index.md
     - Curse of Curses: curse-of-curses/index.md
     - Data Trader: data-trader/index.md
