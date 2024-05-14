@@ -10,6 +10,11 @@ your [starting dimension](spawn.md#dimension) is not the overworld.
 Here you can set if the nether should generate as in a normal world. This will ignore the configured 
 [structures](structures.md#generating-structures) and [features](structures.md#generating-features).
 
+You can also set a structure for a nether portal. This is a `.nbt` or `.snbt` file within the directory 
+`config/skyblockbuilder/templates` and must contain at least one nether portal block. This will be generated whenever
+no nether portal was found in the nether, so be careful with valuable content - users can destroy the portal and
+re-generate this template over and over again.
+
 ## The End
 Here you can set if the end should generate as in a normal world. This will ignore the configured 
 [structures](structures.md#generating-structures) and [features](structures.md#generating-features). Additionally, you

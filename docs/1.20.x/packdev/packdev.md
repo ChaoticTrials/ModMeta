@@ -99,6 +99,9 @@ and `maxOffset`, or just `offset` for an offset relative to the 0 0 0 position o
 - `center` *left*
 ![](../../assets/config/origin.png)
 
+For debugging, the `/locate` command was extended with `spread`. With `/locate spread <team> <spread>`, you can get all
+the positions for this type of spread.
+
 Next, the `surroundingBlocks`:
 ```json
 {
@@ -153,7 +156,7 @@ You can also set an icon for each template. This is located in `config/skyblockb
 name needs to be lowercase.
 
 **NOTE**: If you spawn inside a block, you could add this block to the 
-[block tag 🔗](https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack#Tags) 
+[block tag 🔗](https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack#Tags)
 `#skyblockbuilder:additional_valid_spawns`.
 
 ## Loot chests on island
