@@ -20,4 +20,4 @@ jobs:
         run: sudo apt-get install -y python3
 
       - name: Update descriptions
-        run: python scripts/main.py ${{ secrets.MODRINTH_TOKEN }}
+        run: python scripts/descriptions/main.py ${{ secrets.MODRINTH_TOKEN }}
