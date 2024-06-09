@@ -1,5 +1,5 @@
 {
-  "wiki_url": "https://melanx.github.io/Mod-Wikis/",
+  "wiki_url": "https://wiki.chaotictrials.de/",
   "github": {
     "base_url": "https://github.com/",
     "badge_url": "https://img.shields.io/github/issues-raw/{}?style=flat-square"
@@ -12,13 +12,14 @@
     "base_url": "https://modrinth.com/mod/",
     "badge_url": "https://img.shields.io/modrinth/dt/{}?color=00AF5C&label=%E3%85%A4&logo=modrinth&style=flat-square"
   },
+  "discord_invite": "https://melanx.de/discord",
   "projects": [
     {
       "name": "AIOT Botania",
       "slug": "aiot-botania",
       "cf_id": "294815",
       "mr_id": "TFFWPTSD",
-      "github": "MelanX/aiotbotania",
+      "github": "ChaoticTrials/AIOTBotania",
       "maintained": true
     },
     {
@@ -32,7 +33,7 @@
       "slug": "automatic-tool-swap",
       "cf_id": "361977",
       "mr_id": "L9JLNLqk",
-      "github": "MelanX/ToolSwap",
+      "github": "ChaoticTrials/ToolSwap",
       "maintained": true
     },
     {
@@ -40,7 +41,7 @@
       "slug": "boohoo",
       "cf_id": "533925",
       "mr_id": "RYjHe0FQ",
-      "github": "MelanX/Boohoo",
+      "github": "ChaoticTrials/Boohoo",
       "maintained": false
     },
     {
@@ -48,14 +49,14 @@
       "slug": "botanical-machinery",
       "cf_id": "395617",
       "mr_id": "CTJzhcfH",
-      "github": "MelanX/botanical-machinery",
+      "github": "ChaoticTrials/BotanicalMachinery",
       "maintained": true
     },
     {
       "name": "Cucurbita",
       "slug": "cucurbita",
       "cf_id": "411301",
-      "github": "MelanX/Cucurbita",
+      "github": "ChaoticTrials/Cucurbita",
       "maintained": true
     },
     {
@@ -63,7 +64,7 @@
       "slug": "curse-of-curses",
       "cf_id": "382881",
       "mr_id": "HMcaBYVS",
-      "github": "MelanX/curse-of-curses",
+      "github": "ChaoticTrials/CurseOfCurses",
       "maintained": true
     },
     {
@@ -71,7 +72,7 @@
       "slug": "data-trader",
       "cf_id": "650573",
       "mr_id": "No1xZeN1",
-      "github": "MelanX/DataTrader",
+      "github": "ChaoticTrials/DataTrader",
       "maintained": true
     },
     {
@@ -79,7 +80,7 @@
       "slug": "defaultworldtype",
       "cf_id": "373014",
       "mr_id": "kZvO1mDq",
-      "github": "MelanX/DefaultWorldType",
+      "github": "ChaoticTrials/DefaultWorldType",
       "maintained": true
     },
     {
@@ -87,7 +88,7 @@
       "slug": "ex-naturae",
       "cf_id": "482122",
       "mr_id": "TQ12BIKN",
-      "github": "MelanX/ExNaturae",
+      "github": "ChaoticTrials/ExNaturae",
       "maintained": true
     },
     {
@@ -95,7 +96,7 @@
       "slug": "excavar",
       "cf_id": "561528",
       "mr_id": "u86oU2cO",
-      "github": "MelanX/Excavar",
+      "github": "ChaoticTrials/Excavar",
       "maintained": true,
       "yt_video": {
         "type": "short",
@@ -107,7 +108,7 @@
       "slug": "extra-disks",
       "cf_id": "351491",
       "mr_id": "Tlo2tahX",
-      "github": "MelanX/ExtraDisks",
+      "github": "ChaoticTrials/ExtraDisks",
       "maintained": true
     },
     {
@@ -115,7 +116,7 @@
       "slug": "jea",
       "cf_id": "444941",
       "mr_id": "5JY3QNIB",
-      "github": "MelanX/JustEnoughAdvancements",
+      "github": "ChaoticTrials/JustEnoughAdvancements",
       "maintained": true
     },
     {
@@ -132,14 +133,14 @@
       "slug": "maledicta",
       "cf_id": "684453",
       "mr_id": "ICVjNC7Q",
-      "github": "MelanX/Maledicta",
+      "github": "ChaoticTrials/Maledicta",
       "maintained": true
     },
     {
       "name": "MelanX Tweaks",
       "slug": "melanx-tweaks",
       "cf_id": "289799",
-      "github": "MelanX/mxtweaks",
+      "github": "ChaoticTrials/MelanXTweaks",
       "maintained": false
     },
     {
@@ -147,7 +148,7 @@
       "slug": "morexfood",
       "cf_id": "283021",
       "mr_id": "VAmcSKsD",
-      "github": "MelanX/morexfood",
+      "github": "ChaoticTrials/MoreXFood",
       "maintained": true
     },
     {
@@ -155,7 +156,7 @@
       "slug": "morevanillaarmor",
       "cf_id": "350955",
       "mr_id": "7N4JJ4JD",
-      "github": "MelanX/MoreVanillaArmor",
+      "github": "ChaoticTrials/MoreVanillaArmor",
       "maintained": true
     },
     {
@@ -163,7 +164,7 @@
       "slug": "morevanillalib",
       "cf_id": "367254",
       "mr_id": "CtNNDljK",
-      "github": "MelanX/MoreVanillaLib",
+      "github": "ChaoticTrials/MoreVanillaLib",
       "maintained": true
     },
     {
@@ -171,14 +172,14 @@
       "slug": "morevanillatools",
       "cf_id": "349504",
       "mr_id": "HJphSXip",
-      "github": "MelanX/MoreVanillaTools",
+      "github": "ChaoticTrials/MoreVanillaTools",
       "maintained": true
     },
     {
       "name": "NBT Remover",
       "slug": "nbt-remover",
       "cf_id": "351135",
-      "github": "MelanX/NBTRemover",
+      "github": "ChaoticTrials/NBTRemover",
       "maintained": false
     },
     {
@@ -186,14 +187,14 @@
       "slug": "pack-essentials",
       "cf_id": "991847",
       "mr_id": "B7NPvScT",
-      "github": "MelanX/PackEssentials",
+      "github": "ChaoticTrials/PackEssentials",
       "maintained": true
     },
     {
       "name": "Present Stand",
       "slug": "present-stand",
       "cf_id": "283624",
-      "github": "MelanX/presentstand",
+      "github": "ChaoticTrials/PresentStand",
       "maintained": false
     },
     {
@@ -201,7 +202,7 @@
       "slug": "recipe-printer",
       "cf_id": "409823",
       "mr_id": "jCMrOyTG",
-      "github": "MelanX/RecipePrinter",
+      "github": "ChaoticTrials/RecipePrinter",
       "maintained": true
     },
     {
@@ -209,7 +210,7 @@
       "slug": "simple-backups",
       "cf_id": "583228",
       "mr_id": "fzSKSXVK",
-      "github": "MelanX/SimpleBackups",
+      "github": "ChaoticTrials/SimpleBackups",
       "maintained": true
     },
     {
@@ -217,7 +218,7 @@
       "slug": "simply-harvesting",
       "cf_id": "701347",
       "mr_id": "P4FVY4ll",
-      "github": "MelanX/SimplyHarvesting",
+      "github": "ChaoticTrials/SimplyHarvesting",
       "maintained": true
     },
     {
@@ -225,7 +226,7 @@
       "slug": "simply-tools",
       "cf_id": "610058",
       "mr_id": "v7uAVl86",
-      "github": "MelanX/simplytools",
+      "github": "ChaoticTrials/SimplyTools",
       "maintained": true
     },
     {
@@ -233,7 +234,7 @@
       "slug": "sky-guis",
       "cf_id": "557696",
       "mr_id": "3Gdi7Qgq",
-      "github": "MelanX/SkyGUIs",
+      "github": "ChaoticTrials/SkyGUIs",
       "maintained": true
     },
     {
@@ -241,8 +242,8 @@
       "slug": "skyblock-builder",
       "cf_id": "446691",
       "mr_id": "por2AZc5",
-      "github": "MelanX/SkyblockBuilder",
-      "wiki_url": "https://melanx.github.io/SkyblockBuilder/",
+      "github": "ChaoticTrials/SkyblockBuilder",
+      "wiki_url": "https://chaotictrials.github.io/SkyblockBuilder/",
       "maintained": true
     },
     {
@@ -250,7 +251,7 @@
       "slug": "skyblock-ultima-tools",
       "cf_id": "315068",
       "mr_id": "fM4ceeVu",
-      "github": "MelanX/ultimatools",
+      "github": "ChaoticTrials/UltimaTools",
       "maintained": true
     },
     {
@@ -258,7 +259,7 @@
       "slug": "utilitix",
       "cf_id": "463703",
       "mr_id": "MMMWYsjm",
-      "github": "MelanX/UtilitiX",
+      "github": "ChaoticTrials/UtilitiX",
       "maintained": true
     },
     {
@@ -266,7 +267,7 @@
       "slug": "vanilla-aiots",
       "cf_id": "482123",
       "mr_id": "WN2YCymY",
-      "github": "MelanX/VanillaAIOTs",
+      "github": "ChaoticTrials/VanillaAIOTs",
       "maintained": true
     },
     {
@@ -277,7 +278,7 @@
       },
       "cf_id": "359786",
       "mr_id": "B74Glkrx",
-      "github": "MelanX/vanilla-excavators",
+      "github": "ChaoticTrials/VanillaExcavators",
       "maintained": false
     },
     {
@@ -288,7 +289,7 @@
       },
       "cf_id": "359343",
       "mr_id": "iTcz8g0Q",
-      "github": "MelanX/vanilla-hammers",
+      "github": "ChaoticTrials/VanillaHammers",
       "maintained": false
     },
     {
@@ -296,7 +297,7 @@
       "slug": "yellow-snow",
       "cf_id": "420856",
       "mr_id": "VrWtXTLg",
-      "github": "MelanX/yellow-snow",
+      "github": "ChaoticTrials/YellowSnow",
       "maintained": true,
       "yt_video": {
         "type": "short",
