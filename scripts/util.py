@@ -7,4 +7,4 @@ def get_data():
 
 
 def get_default_slug(mod):
-    return mod['slug'] if type(mod['slug']) == str else mod['slug']['cf']
+    return mod['slug'] if type(mod['slug']) is str else mod['slug']['mr']

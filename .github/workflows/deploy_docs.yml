@@ -1,9 +1,19 @@
-name: 'Deploy'
-on: push
+name: 'Generate Wikis'
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'data/projects.json'
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'scripts/wikis/**'
+
+permissions:
+  contents: write
 
 jobs:
-  deploy:
-    if: startsWith(github.repository, 'MelanX/') # don't run this in forks
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
