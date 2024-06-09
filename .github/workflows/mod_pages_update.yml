@@ -4,6 +4,7 @@ on:
     branches:
       - 'main'
     paths:
+      - '.github/workflows/mod_pages_update.yml'
       - 'assets/**'
       - 'data/projects.json'
 
