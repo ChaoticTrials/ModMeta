@@ -17,8 +17,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install Python
-        run: sudo apt-get install -y python3
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Update descriptions
         run: python scripts/descriptions/main.py ${{ secrets.MODRINTH_TOKEN }}
