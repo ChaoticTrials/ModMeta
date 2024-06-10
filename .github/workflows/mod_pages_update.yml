@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
 
       - name: Update descriptions
         run: python scripts/descriptions/main.py ${{ secrets.MODRINTH_TOKEN }}
