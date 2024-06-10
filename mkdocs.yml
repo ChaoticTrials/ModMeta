@@ -20,8 +20,8 @@ nav:
     - Skyblock Builder 🔗: https://chaotictrials.github.io/SkyblockBuilder/
     - Yellow Snow: yellow-snow/index.md
 
-site_name: MelanX' Mods Wiki
-site_url: https://melanx.github.io/Mod-Wikis/
+site_name: MelanX's Mods Wiki
+site_url: https://wiki.chaotictrials.de/
 
 theme:
   palette:
@@ -55,6 +55,6 @@ plugins:
   - git-revision-date-localized:
       type: date
 
-repo_name: MelanX/Mod-Wikis
-repo_url: https://github.com/MelanX/Mod-Wikis/
+repo_name: ChaoticTrials/ModMeta
+repo_url: https://github.com/ChaoticTrials/ModMeta
 edit_uri: edit/wiki-source/docs/
