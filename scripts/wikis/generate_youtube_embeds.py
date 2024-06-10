@@ -1,6 +1,6 @@
 import os
 
-from scripts.util import get_data, get_default_slug
+from util import get_data, get_default_slug
 
 data = get_data()
 

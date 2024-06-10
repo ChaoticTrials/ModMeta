@@ -3,7 +3,7 @@ import subprocess
 
 from curseforge import update_curseforge_desc
 from modrinth import update_modrinth_desc, update_modrinth_logo
-from scripts import util
+import util
 
 BASE_URL = 'https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/'
 DIR = 'assets/mods/'

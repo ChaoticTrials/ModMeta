@@ -1,6 +1,6 @@
 import os
 
-from scripts.util import get_default_slug, get_data
+from util import get_default_slug, get_data
 
 
 def add_mod(new_mod):

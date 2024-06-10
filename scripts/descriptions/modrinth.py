@@ -3,7 +3,7 @@ import sys
 
 import requests
 
-from scripts import util
+import util
 
 MOD_PAGE = 'https://modrinth.com/mod/'
 PROJECT_API = 'https://api.modrinth.com/v2/project/'
@@ -27,17 +27,17 @@ def update_modrinth_desc(mod, content):
     url = PROJECT_API + mod['mr_id']
     headers = {'Authorization': MODRINTH_TOKEN, 'User-Agent': 'GitHub@ChaoticTrials/ModMeta', 'Content-Type': 'application/json'}
     projects_data = util.get_data()
-    response = requests.patch(url, json={
-        'body': content,
-        'wiki_url': projects_data['wiki_url'] if not 'wiki_url' in mod else mod['wiki_url'],
-        'source_url': projects_data['github']['base_url'] + mod['github'],
-        'issues_url': projects_data['github']['base_url'] + mod['github'] + '/issues',
-        'discord_url': projects_data['discord_invite']
-    }, headers=headers)
-    if response.status_code == 204:
-        print('✔️ Successfully updated Modrinth description')
-    else:
-        print('❌ Error updating Modrinth description: ' + response.text)
+    # response = requests.patch(url, json={
+    #     'body': content,
+    #     'wiki_url': projects_data['wiki_url'] if not 'wiki_url' in mod else mod['wiki_url'],
+    #     'source_url': projects_data['github']['base_url'] + mod['github'],
+    #     'issues_url': projects_data['github']['base_url'] + mod['github'] + '/issues',
+    #     'discord_url': projects_data['discord_invite']
+    # }, headers=headers)
+    # if response.status_code == 204:
+    #     print('✔️ Successfully updated Modrinth description')
+    # else:
+    #     print('❌ Error updating Modrinth description: ' + response.text)
 
 
 def update_modrinth_logo(logo, mod):
@@ -55,9 +55,9 @@ def update_modrinth_logo(logo, mod):
     params = {'ext': file_type}
     headers = {'Authorization': MODRINTH_TOKEN, 'User-Agent': 'GitHub@ChaoticTrials/ModMeta', 'Content-Type': 'image/' + file_type}
 
-    response = requests.patch(url, params=params, data=data, headers=headers)
-
-    if response.status_code == 204:
-        print('✔️ Successfully updated Modrinth logo')
-    else:
-        print('❌ Error updating Modrinth logo: ' + response.text)
+    # response = requests.patch(url, params=params, data=data, headers=headers)
+    #
+    # if response.status_code == 204:
+    #     print('✔️ Successfully updated Modrinth logo')
+    # else:
+    #     print('❌ Error updating Modrinth logo: ' + response.text)

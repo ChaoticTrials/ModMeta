@@ -1,6 +1,6 @@
 import os
 
-from scripts.util import get_data
+from util import get_data
 
 data = get_data()
 
