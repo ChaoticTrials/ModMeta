@@ -22,6 +22,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: 'pip'
+      - run: pip install -r requirements.txt
 
       - name: Update descriptions
         run: python scripts/descriptions/main.py ${{ secrets.MODRINTH_TOKEN }}
