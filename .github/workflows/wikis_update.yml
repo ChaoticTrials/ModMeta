@@ -37,8 +37,20 @@ jobs:
       - name: 'Add YouTube videos'
         run: python scripts/wikis/generate_youtube_embeds.py
 
+      - name: 'Optimize Images'
+        run: python scripts/optimize_images.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        name: 'Push images'
+        with:
+          commit_message: 'Optimize images'
+          commit_user_email: 'info@melanx.de'
+
       - name: 'Build Wiki'
         run: mkdocs build -d build_site
+
+      - name: 'Modify pages'
+        run: python scripts/wikis/modify_pages.py
 
       - name: 'Deploy'
         uses: 'JamesIves/github-pages-deploy-action@4.1.4'
