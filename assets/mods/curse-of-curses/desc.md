@@ -12,7 +12,7 @@ server. If the mod is only on server, the client will only see the unlocalized m
 <br>
 
 It is highly recommended to use this mod with other mods which add curse enchantments
-- [Cursed](https://www.curseforge.com/minecraft/mc-mods/cursed/) by Darkhax.
+- [Cursed](https://modrinth.com/mod/cursed-mod) by Darkhax.
 - [Curses](https://www.curseforge.com/minecraft/mc-mods/curses) by Cyborg
 - and many more
 

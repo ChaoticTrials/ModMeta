@@ -1,6 +1,6 @@
 {header.png}
 
-Extra Disks is an add-on for [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage/) which 
+Extra Disks is an add-on for [Refined Storage](https://modrinth.com/mod/refined-storage/) which 
 adds much bigger item and fluid disks.
 <br><br>
 {overview.png}

@@ -3,7 +3,7 @@
 
 **Analyzer** isn't maintained anymore.
 
-It simply adds 5 commands, mainly made for [Bongo](https://www.curseforge.com/minecraft/mc-mods/bongo). This
+It simply adds 5 commands, mainly made for [Bongo](https://modrinth.com/mod/bongo). This
 feature was added by the mod itself, but made much better.
 
 - `/analyzer items`

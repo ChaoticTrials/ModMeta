@@ -22,4 +22,4 @@ can choose if the main island (with the dragon) should be generated or not.
 
 ## Other dimensions
 All other dimensions (added by datapacks, or other mods) will not be void and can't be configured. If you want
-compatability, ask the mod author of this mod or [open an issue on GitHub 🔗](https://github.com/MelanX/SkyblockBuilder/issues/new?assignees=MelanX&labels=enhancement&template=feature_request.md&title=).
+compatability, ask the mod author of this mod or [open an issue on GitHub 🔗](https://github.com/ChaoticTrials/SkyblockBuilder/issues/new?assignees=MelanX&labels=enhancement&template=feature_request.md&title=).
