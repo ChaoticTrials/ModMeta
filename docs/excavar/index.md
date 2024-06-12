@@ -64,4 +64,4 @@ The server config file is stored in each world separately. You can find it after
 
 ## Demonstration
 
-{yt_video}
+<div class="video-wrapper"><iframe width="451" height="801" src="https://www.youtube.com/embed/zww2hy1g2vU" title="Excavar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
