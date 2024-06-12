@@ -12,7 +12,7 @@ for mod in mods:
         if os.path.exists('docs/' + slug):
             file = f'docs/{slug}/index.md'
             if os.path.exists(file):
-                with open(file, 'r', encoding='utf-8') as f:
+                with open(file, 'r') as f:
                     content = f.read()
                     is_short = mod['yt_video']['type'] == 'short'
                     width = '451' if is_short else '801'
@@ -24,5 +24,5 @@ for mod in mods:
                                               f'clipboard-write; encrypted-media; gyroscope; picture-in-picture; '
                                               f'web-share" allowfullscreen></iframe></div>')
 
-                with open(file, 'w', encoding='utf-8') as f:
+                with open(file, 'w') as f:
                     f.write(content)

@@ -60,7 +60,7 @@ def main(data):
 
     path = "docs/" + get_default_slug(mod)
     os.mkdir(path)
-    with open(path + "/index.md", "w", encoding="utf-8") as f:
+    with open(path + "/index.md", "w") as f:
         f.writelines([
             f"# {mod['name']}\n",
             f"{cf_url}\n{mr_url}\n{github}\n"

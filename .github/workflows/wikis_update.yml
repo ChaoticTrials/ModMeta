@@ -28,15 +28,6 @@ jobs:
       - name: 'Configure'
         run: pip3 install mkdocs==1.4.3 mkdocs-material==9.1.14 mkdocs-git-revision-date-localized-plugin==1.2.0
 
-      - name: 'Create table of mods'
-        run: python scripts/wikis/generate_table.py
-
-      - name: 'Create WIP pages'
-        run: python scripts/wikis/generate_missing_pages.py
-
-      - name: 'Add YouTube videos'
-        run: python scripts/wikis/generate_youtube_embeds.py
-
       - name: 'Optimize Images'
         run: python scripts/optimize_images.py
 
@@ -45,6 +36,15 @@ jobs:
         with:
           commit_message: 'Optimize images'
           commit_user_email: 'info@melanx.de'
+
+      - name: 'Create table of mods'
+        run: python scripts/wikis/generate_table.py
+
+      - name: 'Create WIP pages'
+        run: python scripts/wikis/generate_missing_pages.py
+
+      - name: 'Add YouTube videos'
+        run: python scripts/wikis/generate_youtube_embeds.py
 
       - name: 'Build Wiki'
         run: mkdocs build -d build_site

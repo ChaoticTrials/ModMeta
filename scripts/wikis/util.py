@@ -2,7 +2,7 @@ import json
 
 
 def get_data():
-    with open("data/projects.json", "r", encoding="utf-8") as f:
+    with open("data/projects.json", "r") as f:
         return json.loads(f.read())
 
 

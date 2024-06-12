@@ -1,9 +1,8 @@
 import os
 import subprocess
 
-from curseforge import update_curseforge_desc
-from modrinth import update_modrinth_desc, update_modrinth_logo
 import util
+from modrinth import update_modrinth_desc, update_modrinth_logo
 
 BASE_URL = 'https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/'
 DIR = 'assets/mods/'
@@ -32,7 +31,7 @@ def update_desc(path, mod):
         print('❌ Description')
         return
 
-    with open(desc, 'r', encoding='utf-8') as f:
+    with open(desc, 'r') as f:
         content = f.read()
 
     content = important_information(content)
@@ -67,7 +66,7 @@ def update_desc(path, mod):
 
 
 def something_changed(path):
-    with open('latest.txt', 'r', encoding='utf-8') as f:
+    with open('latest.txt', 'r') as f:
         hash = f.readline().rstrip("\n")
         cmd = (f'git diff --name-only {hash} -- '
                f'{path} ' # if some information in the mod itself changed, update
@@ -80,7 +79,7 @@ def something_changed(path):
 
 
 def logo_changed(path):
-    with open('latest.txt', 'r', encoding='utf-8') as f:
+    with open('latest.txt', 'r') as f:
         hash = f.readline().rstrip("\n")
         cmd = f'git diff --name-only {hash} -- {path}'
         result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE)
@@ -112,7 +111,7 @@ def main():
 
 
 def important_information(content: str):
-    with open('assets/important_notes.md', 'r', encoding='utf-8') as f:
+    with open('assets/important_notes.md', 'r') as f:
         data = f.read()
 
     if data.strip() != '':

@@ -44,7 +44,7 @@ for mod in mods:
 
 table += '</tbody></table>\n'
 
-with open("docs/index.md", "r", encoding="utf-8") as f:
+with open("docs/index.md", "r") as f:
     content = f.read()
 
 new_content = content.format(**{
@@ -55,5 +55,5 @@ new_content = content.format(**{
     'header': '<script src="scripts/table_search.js" type="application/javascript"></script>\n<link rel="stylesheet" href="style.css">'
 })
 
-with open("docs/index.md", "w", encoding="utf-8") as f:
+with open("docs/index.md", "w") as f:
     f.write(new_content)
