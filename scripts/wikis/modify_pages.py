@@ -232,7 +232,7 @@ SCRIPT = """
 
 
 def main():
-    with open('skyblock-builder/build_site/1.20.x/1.19.x_to_1.20.x/index.html', 'r') as f:
+    with open('build_site/skyblock-builder/1.20.x/1.19.x_to_1.20.x/index.html', 'r') as f:
         file = f.read()
 
     lines = file.splitlines()
@@ -244,7 +244,7 @@ def main():
             newlines.append(SCRIPT)
             done = True
 
-    with open('skyblock-builder/build_site/1.20.x/1.19.x_to_1.20.x/index.html', 'w') as f:
+    with open('build_site/skyblock-builder/1.20.x/1.19.x_to_1.20.x/index.html', 'w') as f:
         for line in newlines:
             f.write(line + '\n')
 
