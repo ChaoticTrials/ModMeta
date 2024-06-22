@@ -8,6 +8,7 @@ But be aware, too many sleeping may add curses, too. This is configurable as wel
 server. If the mod is only on server, the client will only see the unlocalized message.
 
 <br>
+
 {recommendations.png}
 <br>
 
