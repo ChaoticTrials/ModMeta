@@ -20,7 +20,7 @@ for mod in mods:
                     content = content.replace('{yt_video}',
                                               f'<div class="video-wrapper"><iframe width="{width}" height="{height}" '
                                               f'src="https://www.youtube.com/embed/{mod["yt_video"]["id"]}" '
-                                              f'title="Excavar" frameborder="0" allow="accelerometer; autoplay; '
+                                              f'title="{mod["name"]}" frameborder="0" allow="accelerometer; autoplay; '
                                               f'clipboard-write; encrypted-media; gyroscope; picture-in-picture; '
                                               f'web-share" allowfullscreen></iframe></div>')
 
