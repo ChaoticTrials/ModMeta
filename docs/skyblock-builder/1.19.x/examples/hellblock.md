@@ -1,6 +1,6 @@
 # Hellblock
 
-![Starting template](../../assets/examples/hellblock/start_template.png)
+![Starting template](../../../assets/projects/skyblock-builder/examples/hellblock/start_template.png)
 _[Download](https://raw.githubusercontent.com/ChaoticTrials/SkyblockBuilder/gh-pages/assets/examples/downloads/1.19.x/hellblock.zip)_
 
 To create a hellblock like modpack, you can simply set the spawn dimension to `the_nether` as you can see in

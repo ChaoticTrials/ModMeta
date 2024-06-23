@@ -1,5 +1,5 @@
 # Skyblock
-![Starting template](../../assets/examples/skyblock/start_template.png)
+![Starting template](../../../assets/projects/skyblock-builder/examples/skyblock/start_template.png)
 
 This is the default island when using the mod. You don't have to adjust any config for this. Just use it.
 

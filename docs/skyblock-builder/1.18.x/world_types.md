@@ -7,7 +7,7 @@ The config and all options are for this world type only.
 
 You can use this world type on servers or in `forge-common.toml` by using `skyblockbuilder:skyblock`.
 
-![Skyblock](../assets/world-types/skyblock.png)
+![Skyblock](../../assets/projects/skyblock-builder/world-types/skyblock.png)
 
 ## Skylands
 The second world type is called **Skylands**. It is a world where you can travel over floating islands in a land
@@ -19,4 +19,4 @@ This mod is licensed under the [MIT license](https://github.com/devs-immortal/Pa
 
 You can use this world type on servers or in `forge-common.toml` by using `skyblockbuilder:skylands`.
 
-![Skyblock](../assets/world-types/skylands.png)
+![Skyblock](../../assets/projects/skyblock-builder/world-types/skylands.png)

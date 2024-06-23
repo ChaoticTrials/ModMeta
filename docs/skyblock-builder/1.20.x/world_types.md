@@ -5,4 +5,4 @@ The only world type added is called **Skyblock**. It is a world where you can cu
 
 You can use this world type on servers by using `skyblockbuilder:skyblock`.
 
-![Skyblock](../assets/world-types/skyblock.png)
+![Skyblock](../../assets/projects/skyblock-builder/world-types/skyblock.png)
