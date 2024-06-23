@@ -1,5 +1,5 @@
 # Analyzer
-[![](https://cf.way2muchnoise.eu/407986.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/analyzer)  
+[![](https://badges.moddingx.org/curseforge/downloads/407986?style=flat)](https://www.curseforge.com/minecraft/mc-mods/analyzer)  
 
 **Analyzer** isn't maintained anymore.
 

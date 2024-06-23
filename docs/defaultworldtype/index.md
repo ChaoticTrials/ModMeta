@@ -1,7 +1,7 @@
 # Default World Type
-[![](https://cf.way2muchnoise.eu/373014.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/defaultworldtype) 
-[![](https://img.shields.io/modrinth/dt/defaultworldtype?color=00AF5C&label=%E3%85%A4&logo=modrinth&style=flat-square)](https://modrinth.com/mod/defaultworldtype) 
-[![](https://img.shields.io/github/issues-raw/MelanX/DefaultWorldType?style=flat-square)](https://github.com/MelanX/DefaultWorldType)
+[![](https://badges.moddingx.org/modrinth/downloads/defaultworldtype?style=flat)](https://modrinth.com/mod/defaultworldtype)
+[![](https://badges.moddingx.org/curseforge/downloads/373014?style=flat)](https://www.curseforge.com/minecraft/mc-mods/defaultworldtype) 
+[![](https://img.shields.io/github/issues-raw/ChaoticTrials/DefaultWorldType?style=flat-square)](https://github.com/ChaoticTrials/DefaultWorldType)
 
 A client-only mod to pre-define world presets for modpacks.
 When you start the game and navigate to the world creation screen, it will generate a file at 

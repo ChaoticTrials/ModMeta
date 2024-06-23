@@ -1,7 +1,7 @@
 # Boohoo!
-[![](https://cf.way2muchnoise.eu/533925.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/boohoo) 
-[![](https://img.shields.io/modrinth/dt/boohoo?color=00AF5C&label=%E3%85%A4&logo=modrinth&style=flat-square)](https://modrinth.com/mod/boohoo) 
-[![](https://img.shields.io/github/issues-raw/MelanX/Boohoo?style=flat-square)](https://github.com/MelanX/Boohoo)
+[![](https://badges.moddingx.org/modrinth/downloads/boohoo?style=flat)](https://modrinth.com/mod/boohoo)
+[![](https://badges.moddingx.org/curseforge/downloads/533925?style=flat)](https://www.curseforge.com/minecraft/mc-mods/boohoo)
+[![](https://img.shields.io/github/issues-raw/ChaoticTrials/Boohoo?style=flat-square)](https://github.com/ChaoticTrials/Boohoo)
 
 This mod was made for [SpookyJam 2021](https://www.curseforge.com/minecraft/modpacks/spookyjam-2021-forge-edition). 
 It contains a ghost which could spawn at night.

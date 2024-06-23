@@ -1,11 +1,11 @@
 # Curse of Curses
-[![](https://cf.way2muchnoise.eu/382881.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/curse-of-curses)
-[![](https://img.shields.io/modrinth/dt/curse-of-curses?color=00AF5C&label=%E3%85%A4&logo=modrinth&style=flat-square)](https://modrinth.com/mod/curse-of-curses)
-[![](https://img.shields.io/github/issues-raw/MelanX/curse-of-curses?style=flat-square)](https://github.com/MelanX/curse-of-curses)
+[![](https://badges.moddingx.org/modrinth/downloads/curse-of-curses?style=flat)](https://www.curseforge.com/minecraft/mc-mods/curse-of-curses)
+[![](https://badges.moddingx.org/curseforge/downloads/382881?style=flat)](https://www.curseforge.com/minecraft/mc-mods/curse-of-curses)
+[![](https://img.shields.io/github/issues-raw/ChaoticTrials/CurseOfCurses?style=flat-square)](https://github.com/ChaoticTrials/CurseOfCurses)
 
 
 ### Config
-This mod adds an additional layer of challenge and unpredictability to gameplay. It applies random curses to random 
+This mod adds a layer of challenge and unpredictability to gameplay. It applies random curses to random 
 items on random times to the player. For adjusting the chance, please use the config file. 
 
 

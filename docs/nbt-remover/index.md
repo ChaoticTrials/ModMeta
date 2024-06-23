@@ -1,6 +1,6 @@
 # NBT Remover
-[![](https://cf.way2muchnoise.eu/351135.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/nbt-remover)
-[![](https://img.shields.io/github/issues-raw/MelanX/NBTRemover?style=flat-square)](https://github.com/MelanX/NBTRemover)
+[![](https://badges.moddingx.org/curseforge/downloads/351135?style=flat)](https://www.curseforge.com/minecraft/mc-mods/nbt-remover)
+[![](https://img.shields.io/github/issues-raw/ChaoticTrials/NBTRemover?style=flat-square)](https://github.com/ChaoticTrials/NBTRemover)
 
 This mod was mainly created to fix the problem with recipes where the ingredients should not have any nbt data. This block
 simply removes the nbt from the items.

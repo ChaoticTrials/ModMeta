@@ -6,11 +6,11 @@
   },
   "curseforge": {
     "base_url": "https://www.curseforge.com/minecraft/mc-mods/",
-    "badge_url": "https://cf.way2muchnoise.eu/{}.svg?badge_style=flat"
+    "badge_url": "https://badges.moddingx.org/curseforge/downloads/{}?style=flat"
   },
   "modrinth": {
     "base_url": "https://modrinth.com/mod/",
-    "badge_url": "https://img.shields.io/modrinth/dt/{}?color=00AF5C&label=%E3%85%A4&logo=modrinth&style=flat-square"
+    "badge_url": "https://badges.moddingx.org/modrinth/downloads/{}?style=flat"
   },
   "discord_invite": "https://discord.chaotictrials.de/",
   "projects": [

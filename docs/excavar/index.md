@@ -1,7 +1,7 @@
 # Excavar
-[![](https://cf.way2muchnoise.eu/561528.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/excavar) 
-[![](https://img.shields.io/modrinth/dt/excavar?color=00AF5C&label=%E3%85%A4&logo=modrinth&style=flat-square)](https://modrinth.com/mod/excavar) 
-[![](https://img.shields.io/github/issues-raw/MelanX/Excavar?style=flat-square)](https://github.com/MelanX/Excavar)
+[![](https://badges.moddingx.org/modrinth/downloads/excavar?style=flat)](https://modrinth.com/mod/excavar)
+[![](https://badges.moddingx.org/curseforge/downloads/561528?style=flat)](https://www.curseforge.com/minecraft/mc-mods/excavar)
+[![](https://img.shields.io/github/issues-raw/ChaoticTrials/Excavar?style=flat-square)](https://github.com/ChaoticTrials/Excavar)
 
 Mining in batches is possible and handy in some cases. This mod allows it!
 
