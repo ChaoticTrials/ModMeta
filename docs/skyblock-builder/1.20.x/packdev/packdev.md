@@ -97,7 +97,7 @@ and `maxOffset`, or just `offset` for an offset relative to the 0 0 0 position o
 
 - `zero` (default, if not defined) *right*
 - `center` *left*
-![](../../assets/config/origin.png)
+![](../../../assets/projects/skyblock-builder/config/origin.png)
 
 For debugging, the `/locate` command was extended with `spread`. With `/locate spread <team> <spread>`, you can get all
 the positions for this type of spread.

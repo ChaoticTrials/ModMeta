@@ -21,7 +21,7 @@ To create a stoneblock like modpack, you can simply set the surface settings as 
 The download file will also set the default world type to `Skyblock`. It will generate Bedrock at top and bottom of the
 dimension. It has only one spawn point. A starting inventory is included, too. Here you can see it:
 
-![Starting item](../../assets/examples/stoneblock/start_item.png)
+![Starting item](../../../assets/projects/skyblock-builder/examples/stoneblock/start_item.png)
 ```json
 {
   "items": [
