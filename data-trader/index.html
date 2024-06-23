@@ -406,36 +406,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#defining-the-trades" class="md-nav__link">
-    Defining the trades
-  </a>
-  
-    <nav class="md-nav" aria-label="Defining the trades">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#file-structure" class="md-nav__link">
     File structure
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#where-to-put-it-in" class="md-nav__link">
     Where to put it in?
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#how-to-use" class="md-nav__link">
     How to use?
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#setting-custom-skin-overlay" class="md-nav__link">
+    Setting custom skin overlay
+  </a>
   
 </li>
       
@@ -2919,36 +2913,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#defining-the-trades" class="md-nav__link">
-    Defining the trades
-  </a>
-  
-    <nav class="md-nav" aria-label="Defining the trades">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#file-structure" class="md-nav__link">
     File structure
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#where-to-put-it-in" class="md-nav__link">
     Where to put it in?
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#how-to-use" class="md-nav__link">
     How to use?
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#setting-custom-skin-overlay" class="md-nav__link">
+    Setting custom skin overlay
+  </a>
   
 </li>
       
@@ -2971,19 +2959,18 @@
 
 
 <h1 id="data-trader">Data Trader</h1>
-<p><a href="https://www.curseforge.com/minecraft/mc-mods/data-trader"><img alt="" src="https://cf.way2muchnoise.eu/650573.svg?badge_style=flat" /></a> 
-<a href="https://modrinth.com/mod/data-trader"><img alt="" src="https://img.shields.io/modrinth/dt/data-trader?color=00AF5C&amp;label=%E3%85%A4&amp;logo=modrinth&amp;style=flat-square" /></a> 
-<a href="https://github.com/MelanX/DataTrader"><img alt="" src="https://img.shields.io/github/issues-raw/MelanX/DataTrader?style=flat-square" /></a></p>
+<p><a href="https://modrinth.com/mod/data-trader"><img alt="" src="https://badges.moddingx.org/modrinth/downloads/data-trader?style=flat" /></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/data-trader"><img alt="" src="https://badges.moddingx.org/curseforge/downloads/650573?style=flat" /></a>
+<a href="https://github.com/ChaoticTrials/DataTrader"><img alt="" src="https://img.shields.io/github/issues-raw/ChaoticTrials/DataTrader?style=flat-square" /></a></p>
 <p>A mod which adds a new trader to the game.</p>
-<h2 id="defining-the-trades">Defining the trades</h2>
 <h3 id="file-structure">File structure</h3>
-<p>The trader can receive an ID for a merchant offers "recipe". This is a list of single <code>merchant offer</code>s. An example
+<p>The trader can receive an ID for a trader offers "recipe". This is a list of single <code>trader offer</code>s. An example
 file could look like this:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;Recipes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="nt">&quot;Offers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;buy&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;item&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:diamond&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;forge:gems/diamond&quot;</span><span class="p">,</span>
 <span class="w">        </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span>
 <span class="w">      </span><span class="p">},</span>
 <span class="w">      </span><span class="nt">&quot;buyB&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -2993,27 +2980,16 @@ file could look like this:</p>
 <span class="w">        </span><span class="nt">&quot;item&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:diamond_pickaxe&quot;</span><span class="p">,</span>
 <span class="w">        </span><span class="nt">&quot;nbt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;{Damage:0,Enchantments:[{id:\&quot;minecraft:efficiency\&quot;,lvl:2},{id:\&quot;minecraft:unbreaking\&quot;, lvl:10}]}&quot;</span>
 <span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="nt">&quot;uses&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;maxUses&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span>
 <span class="w">      </span><span class="nt">&quot;rewardExp&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;xp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;priceMultiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;specialPrice&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;demand&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
+<span class="w">      </span><span class="nt">&quot;xp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
-<ul>
-<li>This example includes only one merchant offer. The trader will sell the item in <code>sell</code>.</li>
-<li>The player needs to provide the item in <code>buy</code> and <code>buyB</code> to receive the item.
-<code>maxUses</code> is the amount of times the player can use this trade before the trader needs to restock.</li>
-<li>If <code>rewardExp</code> is true, the player will receive 3 to 6 xp points for each trade.
-<code>xp</code> if the amount of xp the trader receives. Since it's not leveling, it's useless here.</li>
-<li>The <code>priceMultiplier</code> calculates the price for the item count in <code>buy</code>.</li>
-<li>The <code>specialPriceDiff</code> could increase or decrease it.</li>
-<li>The <code>demand</code> will also calculate the price for the item count in <code>buy</code>.</li>
-</ul>
+<p>This example includes only one merchant offer. The trader will sell the item in <code>sell</code>.</p>
+<p>The player needs to provide the item in <code>buy</code> and <code>buyB</code> to receive the item.
+<code>maxUses</code> is the amount of times the player can use this trade before the trader needs to restock.</p>
+<p>If <code>rewardExp</code> is true, the player will receive xp points for each trade, amount defined in <code>xp</code>.</p>
 <p><br>
 The following values are required:</p>
 <ul>
@@ -3034,14 +3010,6 @@ The following values are required:</p>
 <td align="center">Air</td>
 </tr>
 <tr>
-<td align="center"><code>uses</code></td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center"><code>maxUses</code></td>
-<td align="center">4</td>
-</tr>
-<tr>
 <td align="center"><code>rewardExp</code></td>
 <td align="center">false</td>
 </tr>
@@ -3049,34 +3017,27 @@ The following values are required:</p>
 <td align="center"><code>xp</code></td>
 <td align="center">0</td>
 </tr>
-<tr>
-<td align="center"><code>priceMultiplier</code></td>
-<td align="center">0.0</td>
-</tr>
-<tr>
-<td align="center"><code>specialPrice</code></td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center"><code>demand</code></td>
-<td align="center">0</td>
-</tr>
 </tbody>
 </table>
 <h3 id="where-to-put-it-in">Where to put it in?</h3>
-<p>You use a data pack to provide these files. These are located at <code>&lt;modid&gt;/merchant_offers/</code>. An example can be found
-<a href="https://github.com/MelanX/DataTrader/tree/1.19.x/src/main/resources/data/datatrader/merchant_offers">here</a>.</p>
+<p>You use a data pack to provide these files. These are located at <code>&lt;modid&gt;/trader_offers/</code>. An example can be found
+<a href="https://github.com/MelanX/DataTrader/tree/HEAD/src/main/resources/data/datatrader/trader_offers/">here</a>.</p>
 <h3 id="how-to-use">How to use?</h3>
 <p>You spawn the trader using the <code>/summon</code> command, or by using the spawn egg. After this, you use the command
 <code>/datatrader setOffer @e &lt;modid&gt;:&lt;path&gt;</code> to set the recipe. This can also be done by datapacks.
 For a normal trader, I recommend setting <code>NoAI</code> to <code>true</code>.</p>
+<p>You can also summon a trader with a specific trading table by using the
+command <code>/datatrader summon ~ ~ ~ &lt;offer_id&gt; &lt;NoAI&gt;</code></p>
+<h3 id="setting-custom-skin-overlay">Setting custom skin overlay</h3>
+<p>Just put a texture to <code>&lt;modid&gt;:textures/entity/trader/&lt;offer_id path&gt;.png</code>. This texture should be something like the
+profession overlay texture, e.g. <code>minecraft:textures/entity/villager/profession/cleric.png</code>.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 25, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 23, 2024</span>
       
     
   </small>
