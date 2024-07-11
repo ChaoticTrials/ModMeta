@@ -2,6 +2,8 @@
 ## Cadmus
 This mod is compatible with [Cadmus 🔗](https://modrinth.com/mod/cadmus). If Cadmus is installed, a new 
 [config](config/compat/cadmus.md) will be registered. This includes mainly protecting spawn chunks by the mod itself.
+There's also the command `/cadmus skyblockbuilder protectSpawn` for claiming the spawn chunks after a world was created.
+This is helpful in packs where the setting is disabled by default but the server owner wants to claim them.
 
 ## Curios
 This mod is compatible with [Curios 🔗](https://modrinth.com/mod/curios). This only means that

@@ -17,17 +17,18 @@ This is default set to 0, so nothing is protected. Look at the table here to see
 ## Spawn Protection Events
 A list of event types which will be prevented.
 
-|         Name          |                                    Description                                    |
-|:---------------------:|:---------------------------------------------------------------------------------:|
-|  `interact_entities`  |                   Interacting with entities, e.g. riding a pig                    |
-|   `interact_blocks`   |  Interacting with blocks, e.g. activating buttons, placing, or destroying blocks  |
-|    `mob_griefing`     |                             Mobs destroying the world                             |
-|     `explosions`      |                         TNT, creeper, or other explosions                         |
-|      `crop_grow`      |                       Crops increasing their growth status                        |
-|     `mobs_spawn`      |                                   Mobs spawning                                   |
-|   `mobs_spawn_egg`    |                       Mobs being summoned using a spawn egg                       |
-|       `damage`        |                       Attacking others, or getting attacked                       |
-|       `healing`       |                       Getting healed and saturated on spawn                       |
+|        Name         |                                   Description                                   |
+|:-------------------:|:-------------------------------------------------------------------------------:|
+| `interact_entities` |                  Interacting with entities, e.g. riding a pig                   |
+|  `interact_blocks`  | Interacting with blocks, e.g. activating buttons, placing, or destroying blocks |
+|   `mob_griefing`    |                            Mobs destroying the world                            |
+|    `explosions`     |                        TNT, creeper, or other explosions                        |
+|     `crop_grow`     |                      Crops increasing their growth status                       |
+|  `apply_bonemeal`   |                          Applying bone meal to plants                           |
+|    `mobs_spawn`     |                                  Mobs spawning                                  |
+|  `mobs_spawn_egg`   |                      Mobs being summoned using a spawn egg                      |
+|      `damage`       |                      Attacking others, or getting attacked                      |
+|      `healing`      |                      Getting healed and saturated on spawn                      |
 
 ## Dimension
 This sets the dimension where you will spawn and the island be generated.

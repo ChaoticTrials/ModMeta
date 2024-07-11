@@ -25,3 +25,12 @@ It's set to allow all biomes per default. You can deny biomes by adding them to 
 will only use the biomes in the list. Keep in mind that each dimension needs at least one valid biome!
 
 A list with all possible structures can be found in `config/skyblockbuilder/data/biomes.txt`.
+
+## Prevent scheduled ticks
+This is used to prevent gravel or sand from falling when generating the island. To define which blocks will be
+prevented, use the block tag `skyblockbuilder:prevent_scheduled_tick`. This is filled with fallable blocks by default.
+This includes all sand, gravel, and concrete powder types, as well as any anvil, pointed dripstone, and the dragon egg.
+
+## Leave to Overworld
+This can be enabled if the overworld is still normal, and maybe there's no spawn. This will force the player to be
+teleported to the overworld world spawn instead of the default spawn.
