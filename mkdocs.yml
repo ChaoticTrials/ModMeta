@@ -138,6 +138,7 @@ nav:
                   - skyblock-builder/1.20.x/config/permissions.md
                   - skyblock-builder/1.20.x/config/customization.md
                   - Compat:
+                      - skyblock-builder/1.20.x/config/compat/cadmus.md
                       - skyblock-builder/1.20.x/config/compat/heracles.md
               - Examples:
                   - skyblock-builder/1.20.x/examples/skyblock.md

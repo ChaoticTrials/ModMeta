@@ -1,4 +1,8 @@
 # Compatability with other mods
+## Cadmus
+This mod is compatible with [Cadmus 🔗](https://modrinth.com/mod/cadmus). If Cadmus is installed, a new 
+[config](config/compat/cadmus.md) will be registered. This includes mainly protecting spawn chunks by the mod itself.
+
 ## Curios
 This mod is compatible with [Curios 🔗](https://modrinth.com/mod/curios). This only means that
 items will be dropped from the Curios inventory when leaving a team and
