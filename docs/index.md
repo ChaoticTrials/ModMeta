@@ -2,7 +2,7 @@
 
 # Mod Wikis
 
-Welcome to the home of explanation of MelanX' mods. Here you can find explanation about nearly everything.
+Welcome to the home of explanation of ChaoticTrials' mods. Here you can find explanation about nearly everything.
 
 Currently, this wiki page is still in development. That means, this will be filled with information one by one. If you
 want to help to fill this wiki, you're free to create pull requests. You can always see which mod was even be started

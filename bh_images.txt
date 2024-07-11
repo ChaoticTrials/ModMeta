@@ -88,3 +88,5 @@ assets/mods/vanilla-hammers/header.png
 assets/mods/vanilla-hammers/logo.png
 assets/mods/vanilla-hammers/promo.png
 assets/mods/vanilla-hammers/tool_types.png
+docs/assets/logo.ico
+docs/assets/logo.png
