@@ -4,6 +4,7 @@
 
 ## Reset Quest Progress
 If this config is enabled, it will result in a quest progress reset when a player leaves a team, no matter in which way:
+
 - being kicked
 - leaving by themselves
 
