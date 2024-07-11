@@ -21,7 +21,7 @@
     
     
       
-        <title>World - MelanX's Mods Wiki</title>
+        <title>World - ChaoticTrials' Mods Wiki</title>
       
     
     
@@ -85,7 +85,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="MelanX&#39;s Mods Wiki" class="md-header__button md-logo" aria-label="MelanX's Mods Wiki" data-md-component="logo">
+    <a href="../../../.." title="ChaoticTrials&#39; Mods Wiki" class="md-header__button md-logo" aria-label="ChaoticTrials' Mods Wiki" data-md-component="logo">
       
   <img src="../../../../assets/logo.png" alt="logo">
 
@@ -97,7 +97,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            MelanX's Mods Wiki
+            ChaoticTrials' Mods Wiki
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -151,12 +151,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="MelanX&#39;s Mods Wiki" class="md-nav__button md-logo" aria-label="MelanX's Mods Wiki" data-md-component="logo">
+    <a href="../../../.." title="ChaoticTrials&#39; Mods Wiki" class="md-nav__button md-logo" aria-label="ChaoticTrials' Mods Wiki" data-md-component="logo">
       
   <img src="../../../../assets/logo.png" alt="logo">
 
     </a>
-    MelanX's Mods Wiki
+    ChaoticTrials' Mods Wiki
   </label>
   
     <div class="md-nav__source">
@@ -2633,6 +2633,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#prevent-scheduled-ticks" class="md-nav__link">
+    Prevent scheduled ticks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leave-to-overworld" class="md-nav__link">
+    Leave to Overworld
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2693,6 +2707,68 @@
       <a href="../customization/" class="md-nav__link">
         Customization
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11_6_3_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_11_6_3_8" id="__nav_3_11_6_3_8_label" tabindex="0">
+          Compat
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_3_11_6_3_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_11_6_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          Compat
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compat/cadmus/" class="md-nav__link">
+        Cadmus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compat/heracles/" class="md-nav__link">
+        Heracles
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -2960,6 +3036,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#prevent-scheduled-ticks" class="md-nav__link">
+    Prevent scheduled ticks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leave-to-overworld" class="md-nav__link">
+    Leave to Overworld
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2999,13 +3089,20 @@ string to generate it completely void. If the surface is disabled, it will ignor
 It's set to allow all biomes per default. You can deny biomes by adding them to the list. Setting <code>allow_list</code> to true
 will only use the biomes in the list. Keep in mind that each dimension needs at least one valid biome!</p>
 <p>A list with all possible structures can be found in <code>config/skyblockbuilder/data/biomes.txt</code>.</p>
+<h2 id="prevent-scheduled-ticks">Prevent scheduled ticks</h2>
+<p>This is used to prevent gravel or sand from falling when generating the island. To define which blocks will be
+prevented, use the block tag <code>skyblockbuilder:prevent_scheduled_tick</code>. This is filled with fallable blocks by default.
+This includes all sand, gravel, and concrete powder types, as well as any anvil, pointed dripstone, and the dragon egg.</p>
+<h2 id="leave-to-overworld">Leave to Overworld</h2>
+<p>This can be enabled if the overworld is still normal, and maybe there's no spawn. This will force the player to be
+teleported to the overworld world spawn instead of the default spawn.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 12, 2024</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 11, 2024</span>
       
     
   </small>

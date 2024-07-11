@@ -21,7 +21,7 @@
     
     
       
-        <title>Compatability with other mods - MelanX's Mods Wiki</title>
+        <title>Compatability with other mods - ChaoticTrials' Mods Wiki</title>
       
     
     
@@ -85,7 +85,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="MelanX&#39;s Mods Wiki" class="md-header__button md-logo" aria-label="MelanX's Mods Wiki" data-md-component="logo">
+    <a href="../../.." title="ChaoticTrials&#39; Mods Wiki" class="md-header__button md-logo" aria-label="ChaoticTrials' Mods Wiki" data-md-component="logo">
       
   <img src="../../../assets/logo.png" alt="logo">
 
@@ -97,7 +97,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            MelanX's Mods Wiki
+            ChaoticTrials' Mods Wiki
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -151,12 +151,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="MelanX&#39;s Mods Wiki" class="md-nav__button md-logo" aria-label="MelanX's Mods Wiki" data-md-component="logo">
+    <a href="../../.." title="ChaoticTrials&#39; Mods Wiki" class="md-nav__button md-logo" aria-label="ChaoticTrials' Mods Wiki" data-md-component="logo">
       
   <img src="../../../assets/logo.png" alt="logo">
 
     </a>
-    MelanX's Mods Wiki
+    ChaoticTrials' Mods Wiki
   </label>
   
     <div class="md-nav__source">
@@ -2627,6 +2627,68 @@
 
             
           
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11_6_3_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_11_6_3_8" id="__nav_3_11_6_3_8_label" tabindex="0">
+          Compat
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_3_11_6_3_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_11_6_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          Compat
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/compat/cadmus/" class="md-nav__link">
+        Cadmus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/compat/heracles/" class="md-nav__link">
+        Heracles
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2778,8 +2840,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#cadmus" class="md-nav__link">
+    Cadmus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#curios" class="md-nav__link">
     Curios
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heracles" class="md-nav__link">
+    Heracles
   </a>
   
 </li>
@@ -2903,8 +2979,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#cadmus" class="md-nav__link">
+    Cadmus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#curios" class="md-nav__link">
     Curios
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heracles" class="md-nav__link">
+    Heracles
   </a>
   
 </li>
@@ -2935,10 +3025,22 @@
 
 
 <h1 id="compatability-with-other-mods">Compatability with other mods</h1>
+<h2 id="cadmus">Cadmus</h2>
+<p>This mod is compatible with <a href="https://modrinth.com/mod/cadmus">Cadmus 🔗</a>. If Cadmus is installed, a new 
+<a href="../config/compat/cadmus/">config</a> will be registered. This includes mainly protecting spawn chunks by the mod itself.
+There's also the command <code>/cadmus skyblockbuilder protectSpawn</code> for claiming the spawn chunks after a world was created.
+This is helpful in packs where the setting is disabled by default but the server owner wants to claim them.</p>
 <h2 id="curios">Curios</h2>
 <p>This mod is compatible with <a href="https://modrinth.com/mod/curios">Curios 🔗</a>. This only means that
 items will be dropped from the Curios inventory when leaving a team and
 <a href="../config/inventory/#dropping-inventory">the config</a> is enabled, too.</p>
+<h2 id="heracles">Heracles</h2>
+<p>This mod is compatible with <a href="https://modrinth.com/mod/heracles">Heracles 🔗</a>. It adds a new task type for
+<a href="../packdev/packdev/#configuring-templates">spreads</a>. If Heracles is installed, a new <a href="../config/compat/heracles/">config</a>
+will be registered. You can combine multiple spreads in the GUI by using <code>|</code> as separator. This would be the input for 
+the example below: 
+<code>water_cave|water_cave_birch|water_cave_dark_oak|water_cave_desert|water_cave_jungle|water_cave_spruce|water_cave_swamp</code>
+<img alt="" src="../../../assets/projects/skyblock-builder/compat/heracles.png" /></p>
 <h2 id="minemention">MineMention</h2>
 <p>This mod is compatible with <a href="https://modrinth.com/mod/minemention">MineMention 🔗</a>. To write in the 
 teams chat, you can use <code>skyblockbuilder:sky_team</code> in MineMention config file. This would look like this:
@@ -2956,7 +3058,7 @@ teams chat, you can use <code>skyblockbuilder:sky_team</code> in MineMention con
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 12, 2024</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 11, 2024</span>
       
     
   </small>
