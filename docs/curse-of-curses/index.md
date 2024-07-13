@@ -34,5 +34,10 @@ the config file. Simply add the curses you want to ignore to the denylist. For e
 - `"minecraft:*"` -> ignores all curses added by Minecraft
 - `"minecraft:binding_curse"` -> ignores Curse of Binding
 
+
+### Cooldown Setting
+There are also pre-defined cases where you can choose from. These are `EVERY_NIGHT`, `FULL_MOON`, and `NEW_MOON`.
+For `FULL_MOON` and `NEW_MOON`, the curses will only be applied when the moon is full or empty.
+
 Feel free to customize these configuration options to suit your desired gameplay experience.
 
