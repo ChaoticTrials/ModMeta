@@ -1,0 +1,26 @@
+name: Sync Workflow Files
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync_workflows.yml'
+      - 'mod_workflows/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Sync Workflow Files
+        uses: ChaoticTrials/action-sync-workflows@v1
+        with:
+          org: 'ChaoticTrials'
+          topic: 'workflow-sync-target'
+          directory: 'mod_workflows'
+          prefix: '[meta]'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
