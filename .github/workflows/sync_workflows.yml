@@ -23,4 +23,4 @@ jobs:
           topic: 'workflow-sync-target'
           directory: 'mod_workflows'
           prefix: '[meta]'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SYNC_TOKEN }}
