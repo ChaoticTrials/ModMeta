@@ -1,12 +1,6 @@
 # Main setup
 ## Setting world type on single player as default
-You simply start the game once. It will generate a config called `forge-common.toml`. Change the only value in this
-config to `skyblockbuilder:skyblock`, or use this example and create a file called `forge-common.toml` in the
-config directory with this content:
-```toml
-[general]
-	defaultWorldType = "skyblockbuilder:skyblock"
-```
+See [Default World Type](../../../defaultworldtype/index.md). Use `skyblockbuilder:skyblock` as config value.
 
 ## Setting world type on server as default
 If you want to provide a custom `server.properties` file, set the `level-type` to `skyblockbuilder:skyblock`.
