@@ -5,7 +5,7 @@
 
 A client-only mod to pre-define world presets for modpacks.
 When you start the game and navigate to the world creation screen, it will generate a file at 
-`.minecraft/config/defaultworldtype/world-types.txt` which contains all possible values for the config. You can choose
+`<instance>/config/defaultworldtype/world-types.txt` which contains all possible values for the config. You can choose
 any value and set it in the config file. This world preset will be automatically selected when a player opens the world
 creation screen.
 
