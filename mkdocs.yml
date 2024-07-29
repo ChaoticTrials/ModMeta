@@ -145,6 +145,7 @@ nav:
                   - skyblock-builder/1.20.x/examples/stoneblock.md
                   - skyblock-builder/1.20.x/examples/seablock.md
                   - skyblock-builder/1.20.x/examples/hellblock.md
+              - skyblock-builder/1.20.x/create_issues.md
               - skyblock-builder/1.20.x/world_types.md
               - skyblock-builder/1.20.x/compat.md
               - skyblock-builder/1.20.x/api.md
