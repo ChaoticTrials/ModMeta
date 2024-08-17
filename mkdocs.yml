@@ -187,6 +187,7 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       type: date
+  - search
 
 repo_name: ChaoticTrials/ModMeta
 repo_url: https://github.com/ChaoticTrials/ModMeta
