@@ -60,7 +60,7 @@ The server config file is stored in each world separately. You can find it after
     - `LOGS` - only logs (blocks with tag `#minecraft:logs`) can be mined with Excavar
     - `ORES_AND_LOGS` - `ORES` and `LOGS` combined
 - You can define a list of tools which cannot be used with Excavar - `deniedTools`. For that, you can use `*` as a 
-  wildcard, for example `"minecraft:*_pickace"` would disable all vanilla pickaxes.
+  wildcard, for example `"minecraft:*_pickaxe"` would disable all vanilla pickaxes.
 
 ## Demonstration
 
