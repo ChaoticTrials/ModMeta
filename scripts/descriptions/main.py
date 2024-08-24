@@ -54,7 +54,7 @@ def update_desc(path, mod):
     recipes = os.path.join(path, 'recipes')
     if os.path.exists(recipes):
         images_str = '<details>\n<summary>Click to expand</summary>\n\n'
-        for recipe in os.listdir(recipes):
+        for recipe in sorted(os.listdir(recipes)):
             images_str += f'**{recipe.split(".")[0].replace("_", " ").title()}**\n\n'
             images_str += f'![{recipe.rsplit(".", 1)[0].replace("_", " ").title()} Recipe]({image_url(recipes, recipe)})\n\n'
         images_str += '</details>\n\n'
