@@ -26,6 +26,7 @@
       "name": "Analyzer",
       "slug": "analyzer",
       "cf_id": "407986",
+      "mr_id": "hthoIJCj",
       "maintained": false
     },
     {
@@ -56,6 +57,7 @@
       "name": "Cucurbita",
       "slug": "cucurbita",
       "cf_id": "411301",
+      "mr_id": "HVstU80p",
       "github": "ChaoticTrials/Cucurbita",
       "maintained": true
     },
@@ -141,6 +143,7 @@
       "name": "MelanX Tweaks",
       "slug": "melanx-tweaks",
       "cf_id": "289799",
+      "mr_id": "pLlcbpkx",
       "github": "ChaoticTrials/MelanXTweaks",
       "maintained": false
     },
@@ -177,13 +180,6 @@
       "maintained": true
     },
     {
-      "name": "NBT Remover",
-      "slug": "nbt-remover",
-      "cf_id": "351135",
-      "github": "ChaoticTrials/NBTRemover",
-      "maintained": false
-    },
-    {
       "name": "Pack Essentials",
       "slug": "pack-essentials",
       "cf_id": "991847",
@@ -195,6 +191,7 @@
       "name": "Present Stand",
       "slug": "present-stand",
       "cf_id": "283624",
+      "mr_id": "1vNU1iP2",
       "github": "ChaoticTrials/PresentStand",
       "maintained": false
     },

@@ -37,10 +37,10 @@ def update_desc(path, mod):
     content = important_information(content)
 
     print('🧾 Description')
+    content += '\nYou are allowed to put this mod in any modpack you like.\n'
     for image in os.listdir(path):
         if is_image(image):
             if image == 'promo.png':
-                content += '\nYou are allowed to put this mod in any modpack you like.\n'
                 content += f'![[Werbung](https://www.bisecthosting.com/melanx)]({image_url(path, image)})\n#Werbung #Ad'
                 print('✔️ Promo')
                 continue
@@ -53,10 +53,11 @@ def update_desc(path, mod):
                 print(f'✔️ {title}')
     recipes = os.path.join(path, 'recipes')
     if os.path.exists(recipes):
-        images_str = ''
+        images_str = '<details>\n<summary>Click to expand</summary>\n\n'
         for recipe in os.listdir(recipes):
             images_str += f'**{recipe.split(".")[0].replace("_", " ").title()}**\n\n'
             images_str += f'![{recipe.rsplit(".", 1)[0].replace("_", " ").title()} Recipe]({image_url(recipes, recipe)})\n\n'
+        images_str += '</details>\n\n'
         content = content.replace('{recipe_images}', images_str)
         print('✔️ Example Recipes')
 
