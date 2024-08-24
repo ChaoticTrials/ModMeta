@@ -4,7 +4,7 @@ import subprocess
 import util
 from modrinth import update_modrinth_desc, update_modrinth_logo
 
-BASE_URL = 'https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/'
+BASE_URL = 'https://raw.githubusercontent.com/ChaoticTrials/ModMeta/HEAD/'
 DIR = 'assets/mods/'
 
 
