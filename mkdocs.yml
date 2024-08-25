@@ -8,6 +8,7 @@ nav:
       - "1.21": porting-information/1.21.md
   - Mods:
       - AIOT Botania: aiot-botania/index.md
+      - Automatic Tool Swap: automatic-tool-swap/index.md
       - Analyzer: analyzer/index.md
       - Boohoo!: boohoo/index.md
       - Curse of Curses: curse-of-curses/index.md
