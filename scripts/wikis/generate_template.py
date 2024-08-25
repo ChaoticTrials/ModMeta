@@ -63,7 +63,7 @@ def main(data):
     with open(path + "/index.md", "w") as f:
         f.writelines([
             f"# {mod['name']}\n",
-            f"{cf_url}\n{mr_url}\n{github}\n"
+            f"{mr_url}\n{cf_url}\n{github}\n"
         ])
 
     add_mod(f"{mod['name']}: {get_default_slug(mod)}/index.md")

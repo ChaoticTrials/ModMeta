@@ -1,5 +1,5 @@
 # Skyblock Builder
-[![](https://badges.moddingx.org/modrinth/downloads/skyblock-builder?style=flat)](https://modrinth.com/mod/skyblock-builder)  
+[![](https://badges.moddingx.org/modrinth/downloads/skyblock-builder?style=flat)](https://modrinth.com/mod/skyblock-builder)
 [![](https://badges.moddingx.org/curseforge/downloads/446691?style=flat)](https://www.curseforge.com/minecraft/mc-mods/skyblock-builder)
 [![](https://img.shields.io/github/issues-raw/ChaoticTrials/SkyblockBuilder?style=flat-square)](https://github.com/ChaoticTrials/SkyblockBuilder)
 
