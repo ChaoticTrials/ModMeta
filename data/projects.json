@@ -59,7 +59,7 @@
       "cf_id": "411301",
       "mr_id": "HVstU80p",
       "github": "ChaoticTrials/Cucurbita",
-      "maintained": true
+      "maintained": false
     },
     {
       "name": "Curse of Curses",
@@ -268,7 +268,7 @@
       "maintained": true
     },
     {
-      "name": "Vanilla Excavators [Forge]",
+      "name": "Vanilla Excavators",
       "slug": {
         "cf": "vanilla-excavators-forge",
         "mr": "vanilla-excavators"
@@ -279,7 +279,7 @@
       "maintained": false
     },
     {
-      "name": "Vanilla Hammers [Forge]",
+      "name": "Vanilla Hammers",
       "slug": {
         "cf": "vanilla-hammers-forge",
         "mr": "vanilla-hammers"
