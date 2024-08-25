@@ -14,7 +14,7 @@ for mod in mods:
             if os.path.exists(file):
                 with open(file, 'r') as f:
                     content = f.read()
-                    is_short = mod['yt_video']['type'] == 'short'
+                    is_short = 'is_short' in mod and mod['is_short']
                     width = '451' if is_short else '801'
                     height = '801' if is_short else '451'
                     content = content.replace('{yt_video}',

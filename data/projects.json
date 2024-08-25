@@ -35,7 +35,11 @@
       "cf_id": "361977",
       "mr_id": "L9JLNLqk",
       "github": "ChaoticTrials/ToolSwap",
-      "maintained": true
+      "maintained": true,
+      "yt_video": {
+        "is_short": false,
+        "id": "NYH2w773S84"
+      }
     },
     {
       "name": "Boohoo!",
@@ -101,7 +105,7 @@
       "github": "ChaoticTrials/Excavar",
       "maintained": true,
       "yt_video": {
-        "type": "short",
+        "is_short": true,
         "id": "zww2hy1g2vU"
       }
     },
@@ -297,7 +301,7 @@
       "github": "ChaoticTrials/YellowSnow",
       "maintained": true,
       "yt_video": {
-        "type": "short",
+        "is_short": true,
         "id": "dv5PyAPh-EQ"
       }
     }
