@@ -8,7 +8,11 @@ Currently, this wiki page is still in development. That means, this will be fill
 want to help to fill this wiki, you're free to create pull requests. You can always see which mod was even be started
 to work on by looking at the left sidebar.
 
-All the wikis here should target the latest version of the mod. 
+All the wikis here should target the latest version of the mod.
+
+Currently, I'm working on overhauling this website. You can view the ongoing progress at
+the [Chaotic Trials Staging Website](https://staging.chaotictrials.de/). Additionally, you can find the source code and
+provide feedback [here](https://github.com/ChaoticTrials/chaotictrials.github.io).
 
 Below, you can find all mods with links to their wiki pages (even if they have a separate page), the CurseForge download
 count (+ link to project), Modrinth download count (+ link to project), and link to GitHub repository.
