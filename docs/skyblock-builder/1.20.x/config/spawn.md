@@ -30,6 +30,10 @@ A list of event types which will be prevented.
 |      `damage`       |                      Attacking others, or getting attacked                      |
 |      `healing`      |                      Getting healed and saturated on spawn                      |
 
+## Filters for Spawn Protection
+There are three available filters for the spawn protection, to allow certain entities, blocks, or items to be
+interactable. They are pre-filled with the most common gravestone mods.
+
 ## Dimension
 This sets the dimension where you will spawn and the island be generated.
 
