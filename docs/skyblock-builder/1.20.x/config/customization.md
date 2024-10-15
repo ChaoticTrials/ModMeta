@@ -9,3 +9,6 @@ You can decide if the team name will be displayed in the tab list on a server.
 ## Delete Teams Automatically
 If the last player leaves a team, the team will automatically be deleted. The island and all its blocks remain at this 
 position! This position will not be used for any new team, only the remaining team will be deleted.
+
+## Force Unsecure Profile Names
+You may enable this when you encounter problems with game profiles.
