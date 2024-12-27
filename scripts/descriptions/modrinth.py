@@ -33,7 +33,7 @@ def update_modrinth_desc(mod, content):
 
     response = requests.patch(url, json={
         'body': content,
-        'wiki_url': (projects_data['wiki_url'] + util.get_default_slug(mod)) if not 'wiki_url' in mod else mod['wiki_url'],
+        'wiki_url': (projects_data['wiki_url'] + 'swl/' + util.get_default_slug(mod)) if not 'wiki_url' in mod else mod['wiki_url'],
         'source_url': source_url if github_base_url else '',
         'issues_url': issues_url if github_base_url else '',
         'discord_url': projects_data['discord_invite'] if not 'discord_invite' in mod else mod['discord_invite']
