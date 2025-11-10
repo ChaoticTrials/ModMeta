@@ -24,4 +24,4 @@ Help translating the mod here on [One Sky](https://oss5m9q.oneskyapp.com/admin/p
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vcxpt3WnxvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br><br>
 
-For more information, please visit the [Wiki](https://melanx.github.io/SkyblockBuilder/) linked above.
+For more information, please visit the [Wiki](https://wiki.chaotictrials.de/swl/skyblock-builder/) linked above.
