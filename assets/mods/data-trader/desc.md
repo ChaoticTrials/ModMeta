@@ -7,6 +7,9 @@ A mod which adds a new trader to the game.
 The trader can receive an ID for a trader offers "recipe". This is a list of single `trader offer`s. An example
 file could look like this:
 
+<details>
+<summary>1.20.1</summary>
+
 ```json
 {
   "Offers": [
@@ -28,6 +31,47 @@ file could look like this:
   ]
 }
 ```
+
+</details>
+
+<details open>
+<summary>1.21.1</summary>
+
+```json
+{
+  "Offers": [
+    {
+      "buy": {
+        "count": 1,
+        "items": {
+          "item": "minecraft:wooden_pickaxe"
+        }
+      },
+      "buyB": {
+        "count": 3,
+        "items": {
+          "tag": "c:gems/diamond"
+        }
+      },
+      "sell": {
+        "components": {
+          "minecraft:enchantments": {
+            "levels": {
+              "minecraft:efficiency": 2,
+              "minecraft:unbreaking": 10
+            }
+          }
+        },
+        "count": 1,
+        "id": "minecraft:diamond_pickaxe"
+      }
+    }
+  ]
+}
+```
+
+</details>
+
 
 This example includes only one merchant offer. The trader will sell the item in `sell`.
 
